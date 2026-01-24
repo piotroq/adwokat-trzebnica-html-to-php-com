@@ -1,5 +1,5 @@
 <?php
-$firm_name = 'Kancelaria Adwokacka Adwokat Katarzyna Maj';
+$firm_name = 'KANCELARIA ADWOKACKA ADWOKAT Katarzyna Maj';
 $firm_name_short = 'Kancelaria Adwokacka Katarzyny Maj';
 $lawyer_name = 'Katarzyna Maj';
 $lawyer_title = 'Adwokat';
@@ -19,23 +19,27 @@ $favicon = 'assets/img/logo/ficon.png';
 $logo_main = 'assets/img/logo/logo-2.png';
 $logo_mobile = 'assets/img/logo/logo-1.png';
 $footer_logo = 'assets/img/logo/flogo-1.png';
-$meta_author = $firm_name;
+$current_year = date('Y');
+$google_maps_key = getenv('GOOGLE_MAPS_KEY') ?: '';
+
 $page_title = $firm_name . ' | Adwokat ' . $city_primary . ', ' . $city_secondary;
-$meta_description = 'Kancelaria Adwokacka Adwokat Katarzyna Maj w Trzebnicy i Wrocławiu. Prawo cywilne, spadkowe, obrona w sprawach karnych, porady prawne i umowy. Zadzwoń: ' . $phone_display . '.';
+$meta_author = $firm_name;
+$meta_description = 'Kancelaria adwokacka w Trzebnicy i Wrocławiu. Prawo cywilne, prawo spadkowe, obrona w sprawach karnych, porady prawne i umowy. Zadzwoń: ' . $phone_display . '.';
 $meta_keywords = 'adwokat Trzebnica, kancelaria adwokacka Trzebnica, adwokat Wrocław, prawo cywilne, prawo spadkowe, obrona w sprawach karnych, porady prawne, kancelaria adwokacka Dolny Śląsk, adwokat Katarzyna Maj';
+
 $og_title = $page_title;
-$og_description = 'Profesjonalna pomoc prawna w Trzebnicy, Wrocławiu i na Dolnym Śląsku. Prawo cywilne, spadkowe, obrona karna, porady prawne. Zadzwoń: ' . $phone_display . '.';
+$og_description = 'Profesjonalna pomoc prawna w Trzebnicy, Wrocławiu i na Dolnym Śląsku. Prawo cywilne, spadkowe oraz obrona karna. Tel: ' . $phone_display . '.';
 $og_url = $site_url;
 $og_site_name = $firm_name;
 $og_image = $site_url . '/assets/img/logo/logo-2.png';
+
 $twitter_title = $firm_name;
-$twitter_description = 'Adwokat Trzebnica i Wrocław. Prawo cywilne, spadkowe, obrona w sprawach karnych, porady prawne. Tel: ' . $phone_display . '.';
-$google_maps_key = getenv('GOOGLE_MAPS_KEY') ?: '';
-$current_year = date('Y');
+$twitter_description = 'Adwokat Trzebnica i Wrocław. Prawo cywilne, spadkowe, obrona w sprawach karnych. Tel: ' . $phone_display . '.';
 
 $header_cta_label = 'Bezpłatna konsultacja';
 $header_cta_button = 'Skontaktuj się';
 $header_cta_link = 'kontakt.html';
+
 $footer_cta_title = 'Bezpłatna konsultacja';
 $footer_cta_button = 'Skontaktuj się';
 $footer_cta_small_button = 'Umów spotkanie';
@@ -96,297 +100,6 @@ $social_links = [
 	],
 ];
 
-$slides = [
-	[
-		'background' => 'assets/img/slider/s4.jpg',
-		'tagline' => 'Adwokat Trzebnica • Wrocław • Dolny Śląsk',
-		'headline' => "Kancelaria Adwokacka\nAdwokat {$lawyer_name}",
-		'buttons' => [
-			[
-				'label' => 'Zobacz ofertę',
-				'href' => 'oferta.html',
-			],
-			[
-				'label' => 'Skontaktuj się',
-				'href' => 'kontakt.html',
-			],
-		],
-	],
-	[
-		'background' => 'assets/img/slider/s4.jpg',
-		'tagline' => 'Prawo cywilne i spadkowe',
-		'headline' => "Rzetelna analiza\nJasna strategia działania",
-		'buttons' => [
-			[
-				'label' => 'Prawo cywilne',
-				'href' => 'prawo-cywilne.html',
-			],
-			[
-				'label' => 'Prawo spadkowe',
-				'href' => 'prawo-spadkowe.html',
-			],
-		],
-	],
-	[
-		'background' => 'assets/img/slider/s4.jpg',
-		'tagline' => 'Obrona w sprawach karnych',
-		'headline' => "Szybka reakcja\nSkuteczna obrona",
-		'buttons' => [
-			[
-				'label' => 'Obrona karna',
-				'href' => 'obrona-w-sprawach-karnych.html',
-			],
-			[
-				'label' => 'Zadzwoń teraz',
-				'href' => 'tel:' . $phone_link,
-			],
-		],
-	],
-];
-
-$about_counters = [
-	[
-		'icon' => 'flaticon-mace',
-		'count' => '2016',
-		'suffix' => 'r.',
-		'label' => 'Rok założenia kancelarii',
-	],
-	[
-		'icon' => 'flaticon-balance',
-		'count' => '2',
-		'suffix' => '+',
-		'label' => 'Główne miasta obsługi',
-	],
-	[
-		'icon' => 'flaticon-teamwork',
-		'count' => '3',
-		'suffix' => '+',
-		'label' => 'Kluczowe specjalizacje',
-	],
-	[
-		'icon' => 'flaticon-worldwide',
-		'count' => '100',
-		'suffix' => '%',
-		'label' => 'Zaangażowanie w sprawy Klientów',
-	],
-];
-
-$service_boxes = [
-	[
-		'title' => 'Prawo cywilne',
-		'text' => 'Sprawy o zapłatę, odszkodowania, zniesienie współwłasności, analiza i sporządzanie umów oraz reprezentacja w sporach sądowych.',
-		'href' => 'prawo-cywilne.html',
-		'image' => 'assets/img/service/ser1.jpg',
-		'icon' => 'far fa-chart-bar',
-		'delay' => '0ms',
-	],
-	[
-		'title' => 'Prawo spadkowe',
-		'text' => 'Dziedziczenie, zachowek, dział spadku, testamenty i oświadczenia spadkowe prowadzone w sposób jasny i zrozumiały.',
-		'href' => 'prawo-spadkowe.html',
-		'image' => 'assets/img/service/ser2.jpg',
-		'icon' => 'fas fa-hospital-alt',
-		'delay' => '300ms',
-	],
-	[
-		'title' => 'Obrona w sprawach karnych',
-		'text' => 'Obrona na każdym etapie postępowania karnego, od czynności Policji po sąd i postępowanie wykonawcze.',
-		'href' => 'obrona-w-sprawach-karnych.html',
-		'image' => 'assets/img/service/ser3.jpg',
-		'icon' => 'fas fa-users',
-		'delay' => '600ms',
-	],
-	[
-		'title' => 'Porady prawne i umowy',
-		'text' => 'Indywidualne konsultacje, opinie prawne, negocjacje i przygotowanie dokumentów zapewniających bezpieczeństwo prawne.',
-		'href' => 'oferta.html',
-		'image' => 'assets/img/service/ser4.jpg',
-		'icon' => 'far fa-clone',
-		'delay' => '900ms',
-	],
-];
-
-$case_studies = [
-	[
-		'id' => 'case1',
-		'title' => "Prawo cywilne\nRoszczenia i umowy",
-		'href' => 'prawo-cywilne.html',
-		'image' => 'assets/img/case/cl1.jpg',
-	],
-	[
-		'id' => 'case2',
-		'title' => "Prawo spadkowe\nDziedziczenie i zachowek",
-		'href' => 'prawo-spadkowe.html',
-		'image' => 'assets/img/case/cl2.jpg',
-	],
-	[
-		'id' => 'case3',
-		'title' => "Obrona karna\nPostępowanie przygotowawcze",
-		'href' => 'obrona-w-sprawach-karnych.html',
-		'image' => 'assets/img/case/cl3.jpg',
-	],
-	[
-		'id' => 'case4',
-		'title' => "Porady prawne\nNegocjacje i mediacje",
-		'href' => 'oferta.html',
-		'image' => 'assets/img/case/cl4.jpg',
-	],
-];
-
-$call_to_action_tagline = 'Doświadczenie od 2016 roku';
-$call_to_action_title = 'Potrzebujesz wsparcia adwokata?';
-$call_to_action_phone = $phone_display;
-
-$feature_highlight = [
-	'prefix' => '',
-	'count' => '100',
-	'text' => 'Poufność, rzetelność i pełne zaangażowanie w każdej sprawie prowadzonej przez kancelarię.',
-];
-
-$skill_bars = [
-	[
-		'title' => 'prawo cywilne',
-		'percent' => '70%',
-		'class' => 'Rx-width-70',
-	],
-	[
-		'title' => 'prawo spadkowe',
-		'percent' => '42%',
-		'class' => 'Rx-width-42',
-	],
-	[
-		'title' => 'obrona karna',
-		'percent' => '91%',
-		'class' => 'Rx-width-91',
-	],
-	[
-		'title' => 'porady i umowy',
-		'percent' => '80%',
-		'class' => 'Rx-width-80',
-	],
-];
-
-$how_steps = [
-	[
-		'number' => '01',
-		'title' => 'Poznanie sprawy',
-		'text' => 'Rozmowa, analiza dokumentów i określenie realnych możliwości prawnych oraz celów Klienta.',
-		'image' => 'assets/img/feature/hw1.jpg',
-	],
-	[
-		'number' => '02',
-		'title' => 'Strategia działania',
-		'text' => 'Opracowanie planu, dobór środków prawnych i przedstawienie jasnych kroków postępowania.',
-		'image' => 'assets/img/feature/hw2.jpg',
-	],
-	[
-		'number' => '03',
-		'title' => 'Prowadzenie sprawy',
-		'text' => 'Reprezentacja przed sądami i urzędami, sporządzanie pism oraz stała komunikacja z Klientem.',
-		'image' => 'assets/img/feature/hw3.jpg',
-	],
-	[
-		'number' => '04',
-		'title' => 'Finalizacja i wsparcie',
-		'text' => 'Zamknięcie sprawy, omówienie skutków prawnych i dalsze wsparcie przy realizacji decyzji.',
-		'image' => 'assets/img/feature/hw4.jpg',
-	],
-];
-
-$testimonials = [
-	[
-		'quote' => 'Szybka reakcja i jasne wyjaśnienia pozwoliły mi spokojnie przejść przez sprawę spadkową. Polecam z całego serca.',
-		'name' => 'Klientka z Trzebnicy',
-		'role' => 'sprawa spadkowa',
-	],
-	[
-		'quote' => 'Profesjonalna obsługa i konkretne działania w sprawie cywilnej. Wszystko prowadzone z dużym wyczuciem.',
-		'name' => 'Klient z Wrocławia',
-		'role' => 'prawo cywilne',
-	],
-	[
-		'quote' => 'Rzetelna obrona i bardzo dobra komunikacja na każdym etapie postępowania karnego.',
-		'name' => 'Klient indywidualny',
-		'role' => 'obrona karna',
-	],
-	[
-		'quote' => 'Świetne przygotowanie umów i szybkie wyjaśnienie ryzyk prawnych. Współpraca na najwyższym poziomie.',
-		'name' => 'Przedsiębiorca',
-		'role' => 'obsługa firm',
-	],
-];
-
-$call_action_items = [
-	[
-		'icon' => 'fas fa-map-marker-alt',
-		'text' => $address_street . ', ' . $postal_code . ' ' . $address_city,
-		'title' => 'Adres kancelarii',
-	],
-	[
-		'icon' => 'flaticon-smartphone',
-		'text' => $phone_display,
-		'title' => 'Telefon',
-		'href' => 'tel:' . $phone_link,
-	],
-	[
-		'icon' => 'flaticon-email',
-		'text' => $email,
-		'title' => 'E-mail',
-		'href' => 'mailto:' . $email,
-	],
-	[
-		'icon' => 'flaticon-shout',
-		'text' => $site_domain,
-		'title' => 'Strona internetowa',
-		'href' => $site_url,
-	],
-	[
-		'icon' => 'flaticon-schedule',
-		'text' => 'Umów konsultację',
-		'title' => 'Kontakt',
-		'href' => 'kontakt.html',
-	],
-];
-
-$service_slider_items = [
-	[
-		'title' => "Porady prawne i analiza umów",
-		'text' => 'Profesjonalne konsultacje, opinie prawne oraz przygotowanie umów i pism procesowych.',
-		'image' => 'assets/img/service/sr2.jpg',
-		'icon' => 'flaticon-courthouse',
-	],
-	[
-		'title' => "Sprawy o zapłatę i windykacja",
-		'text' => 'Skuteczne dochodzenie roszczeń, sprzeciwy od nakazu zapłaty i negocjacje ugodowe.',
-		'image' => 'assets/img/service/sr3.jpg',
-		'icon' => 'flaticon-mace',
-	],
-	[
-		'title' => "Zachowek i dział spadku",
-		'text' => 'Kompleksowe wsparcie w sprawach dziedziczenia, testamentów i postępowań spadkowych.',
-		'image' => 'assets/img/service/sr1.jpg',
-		'icon' => 'flaticon-crutch',
-	],
-	[
-		'title' => "Obrona w sprawach karnych",
-		'text' => 'Obrona oraz reprezentacja pokrzywdzonych w postępowaniu przygotowawczym i sądowym.',
-		'image' => 'assets/img/service/sr2.jpg',
-		'icon' => 'flaticon-courthouse',
-	],
-	[
-		'title' => "Postępowanie wykonawcze",
-		'text' => 'Wnioski o dozór elektroniczny, odroczenie wykonania kary i warunkowe zwolnienie.',
-		'image' => 'assets/img/service/sr3.jpg',
-		'icon' => 'flaticon-mace',
-	],
-	[
-		'title' => "Prawo rodzinne i opiekuńcze",
-		'text' => 'Rozwody, alimenty, władza rodzicielska oraz ustalenie kontaktów z dziećmi.',
-		'image' => 'assets/img/service/sr1.jpg',
-		'icon' => 'flaticon-crutch',
-	],
-];
-
 $footer_service_links = [
 	[
 		'label' => 'Prawo cywilne',
@@ -409,8 +122,8 @@ $footer_service_links = [
 		'href' => 'oferta.html',
 	],
 	[
-		'label' => 'Sprawy rodzinne',
-		'href' => 'oferta.html',
+		'label' => 'Postępowania wykonawcze',
+		'href' => 'obrona-w-sprawach-karnych.html',
 	],
 ];
 
@@ -440,9 +153,7 @@ $footer_contact_items = [
 	],
 ];
 
-$footer_about_text = <<<HTML
-{$firm_name_short} świadczy kompleksowe usługi prawne dla klientów indywidualnych i przedsiębiorców. Specjalizujemy się w prawie cywilnym, spadkowym oraz w obronie w sprawach karnych, działając na terenie {$city_primary}, {$city_secondary} i całego {$region_primary}. Zapewniamy rzetelną analizę, jasne zasady współpracy i pełne zaangażowanie w ochronę interesów Klienta.
-HTML;
+$footer_about_text = 'Kancelaria Adwokacka Katarzyny Maj zapewnia kompleksowe wsparcie prawne dla klientów indywidualnych i przedsiębiorców. Specjalizujemy się w prawie cywilnym, spadkowym oraz obronie w sprawach karnych, działając w Trzebnicy, Wrocławiu i na terenie Dolnego Śląska.';
 
 $schema_data = [
 	'@context' => 'https://schema.org',
@@ -552,39 +263,74 @@ $schema_data = [
 
 <!-- Start of slider section
 	============================================= -->
-	<section id="slider_area" class="slider_section slider_2 relative-position">
+	<section id="slider_area" class="slider_section  slider_2 relative-position">
 		<div id="slider_id" class="slider_style_two owl-carousel relative-position">
-			<?php foreach ($slides as $slide): ?>
-				<div class="slider_priview" data-background="<?php echo htmlspecialchars($slide['background'], ENT_QUOTES); ?>">
-					<div class="container">
-						<div class="slider_contect_box">
-							<div class="slider_text headline pera-content">
-								<p>
-									<span class="title_shape_left"></span>
-									<?php echo htmlspecialchars($slide['tagline'], ENT_QUOTES); ?>
-								</p>
-								<h1><?php echo nl2br(htmlspecialchars($slide['headline'], ENT_QUOTES)); ?></h1>
-							</div>
-							<div class="slider_btn ul-li clearfix">
-								<ul>
-									<?php foreach ($slide['buttons'] as $button): ?>
-										<li>
-											<a class="block-display" href="<?php echo htmlspecialchars($button['href'], ENT_QUOTES); ?>">
-												<?php echo htmlspecialchars($button['label'], ENT_QUOTES); ?>
-											</a>
-										</li>
-									<?php endforeach; ?>
-								</ul>
-							</div>
+			<div class="slider_priview" data-background="assets/img/slider/s4.jpg">
+				<div class="container">
+					<div class="slider_contect_box">
+						<div class="slider_text headline pera-content">
+							<p>
+								<span class="title_shape_left"></span>
+								Adwokat Trzebnica • Wrocław • Dolny Śląsk
+							</p>
+							<h1>Kancelaria Adwokacka
+								Adwokat Katarzyna Maj
+							</h1>
+						</div>
+						<div class="slider_btn ul-li clearfix">
+							<ul>
+								<li><a class="block-display" href="oferta.html">Zobacz ofertę</a></li>
+								<li><a class="block-display" href="kontakt.html">Skontaktuj się</a></li>
+							</ul>
 						</div>
 					</div>
 				</div>
-			<?php endforeach; ?>
+			</div>
+			<div class="slider_priview" data-background="assets/img/slider/s4.jpg">
+				<div class="container">
+					<div class="slider_contect_box">
+						<div class="slider_text headline pera-content">
+							<p>
+								<span class="title_shape_left"></span>
+								Prawo cywilne i spadkowe
+							</p>
+							<h1>Skuteczna pomoc
+								w sprawach majątkowych
+							</h1>
+						</div>
+						<div class="slider_btn ul-li clearfix">
+							<ul>
+								<li><a class="block-display" href="prawo-cywilne.html">Prawo cywilne</a></li>
+								<li><a class="block-display" href="prawo-spadkowe.html">Prawo spadkowe</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="slider_priview" data-background="assets/img/slider/s4.jpg">
+				<div class="container">
+					<div class="slider_contect_box">
+						<div class="slider_text headline pera-content">
+							<p>
+								<span class="title_shape_left"></span>
+								Obrona w sprawach karnych
+							</p>
+							<h1>Szybka reakcja
+								profesjonalna obrona
+							</h1>
+						</div>
+						<div class="slider_btn ul-li clearfix">
+							<ul>
+								<li><a class="block-display" href="obrona-w-sprawach-karnych.html">Obrona karna</a></li>
+								<li><a class="block-display" href="tel:+48502319645">Zadzwoń teraz</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 		<div class="slider_side_btn">
-			<a class="block-display" href="tel:<?php echo htmlspecialchars($phone_link, ENT_QUOTES); ?>">
-				<i class="fas fa-phone"></i>Zadzwoń: <?php echo htmlspecialchars($phone_display, ENT_QUOTES); ?>
-			</a>
+			<a class="block-display" href="tel:+48502319645"><i class="fas fa-phone"></i>Zadzwoń: +48 502 319 645</a>
 		</div>
 	</section>
 <!-- End of slider section
@@ -615,17 +361,13 @@ $schema_data = [
 									o kancelarii
 								</p>
 								<h2>
-									Kancelaria adwokacka w <?php echo htmlspecialchars($city_primary, ENT_QUOTES); ?>
-									i <?php echo htmlspecialchars($city_secondary, ENT_QUOTES); ?>
+									Kancelaria adwokacka w Trzebnicy i Wrocławiu
 								</h2>
 							</div>
 							<div class="about_area_text">
-								<div class="about_top_text">
-									<?php echo htmlspecialchars($firm_name_short, ENT_QUOTES); ?> świadczy kompleksowe usługi prawne z zakresu prawa
-									<span>cywilnego, spadkowego oraz obrony w sprawach karnych</span> dla Klientów z <?php echo htmlspecialchars($city_primary, ENT_QUOTES); ?>, <?php echo htmlspecialchars($city_secondary, ENT_QUOTES); ?> i całego <?php echo htmlspecialchars($region_primary, ENT_QUOTES); ?>.
-								</div>
+								<div class="about_top_text">Kancelaria Adwokacka Adwokat <strong>Katarzyna Maj</strong> w Trzebnicy świadczy kompleksowe usługi prawne z zakresu prawa <span>cywilnego, spadkowego oraz obrony w sprawach karnych</span> dla Klientów z Trzebnicy, Wrocławia i całego Dolnego Śląska.</div>
 								<div class="about_details_text">
-									Nazywam się <?php echo htmlspecialchars($lawyer_name, ENT_QUOTES); ?> i jestem adwokatem z wieloletnim doświadczeniem zawodowym. Od 2016 roku prowadzę własną kancelarię w <?php echo htmlspecialchars($city_primary, ENT_QUOTES); ?>, zapewniając rzetelne doradztwo, jasne zasady współpracy i skuteczną ochronę interesów Klientów. Każdą sprawę analizuję indywidualnie, dbając o przejrzystą komunikację i realne wsparcie na każdym etapie postępowania.
+									Nazywam się Katarzyna Maj i jestem adwokatem z wieloletnim doświadczeniem zawodowym. Ukończyłam studia prawnicze na Uniwersytecie im. Adama Mickiewicza w Poznaniu, odbyłam aplikację adwokacką w Okręgowej Radzie Adwokackiej we Wrocławiu, a od 2016 roku prowadzę własną kancelarię z siedzibą w Trzebnicy. Zapewniam rzetelną analizę sprawy, jasne zasady współpracy i pełne zaangażowanie na każdym etapie postępowania. Moim priorytetem jest skuteczna ochrona interesów Klienta, szybka reakcja na pojawiające się problemy oraz przejrzysta komunikacja, która daje poczucie bezpieczeństwa.
 								</div>
 							</div>
 						</div>
@@ -634,19 +376,50 @@ $schema_data = [
 				<div class="about_counter">
 					<div class="about_counter_list ul-li clearfix">
 						<ul>
-							<?php foreach ($about_counters as $counter): ?>
-								<li>
-									<div class="counter_icon_text text-center">
-										<div class="counter_icon">
-											<i class="<?php echo htmlspecialchars($counter['icon'], ENT_QUOTES); ?>"></i>
-										</div>
-										<div class="counter_number pera-content">
-											<span class="odometer" data-count="<?php echo htmlspecialchars($counter['count'], ENT_QUOTES); ?>">00</span><strong><?php echo htmlspecialchars($counter['suffix'], ENT_QUOTES); ?></strong>
-											<p><?php echo htmlspecialchars($counter['label'], ENT_QUOTES); ?></p>
-										</div>
+							<li>
+								<div class="counter_icon_text text-center">
+									<div class="counter_icon">
+										<i class="flaticon-mace"></i>
 									</div>
-								</li>
-							<?php endforeach; ?>
+									<div class="counter_number pera-content">
+										<span class="odometer" data-count="2016">00</span><strong>r.</strong>
+										<p>Rok założenia kancelarii</p>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="counter_icon_text text-center">
+									<div class="counter_icon">
+										<i class="flaticon-balance"></i>
+									</div>
+									<div class="counter_number pera-content">
+										<span class="odometer" data-count="2">00</span><strong>+</strong>
+										<p>Miasta obsługi klientów</p>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="counter_icon_text text-center">
+									<div class="counter_icon">
+										<i class="flaticon-teamwork"></i>
+									</div>
+									<div class="counter_number pera-content">
+										<span class="odometer" data-count="3">00</span><strong>+</strong>
+										<p>Kluczowe specjalizacje</p>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="counter_icon_text text-center">
+									<div class="counter_icon">
+										<i class="flaticon-worldwide"></i>
+									</div>
+									<div class="counter_number pera-content">
+										<span class="odometer" data-count="100">00</span><strong>%</strong>
+										<p>Zaangażowania w sprawy</p>
+									</div>
+								</div>
+							</li>
 						</ul>
 					</div>
 				</div>
@@ -674,24 +447,70 @@ $schema_data = [
 			</div>
 			<div class="service_content_two">
 				<div class="row">
-					<?php foreach ($service_boxes as $service_box): ?>
-						<div class="col-lg-3 col-md-6">
-							<div class="service_box wow fadeInLeft" data-wow-delay="<?php echo htmlspecialchars($service_box['delay'], ENT_QUOTES); ?>" data-wow-duration="1500ms">
-								<div class="service_img_icon relative-position">
-									<div class="service_img">
-										<img src="<?php echo htmlspecialchars($service_box['image'], ENT_QUOTES); ?>" alt="<?php echo htmlspecialchars($service_box['title'], ENT_QUOTES); ?>">
-									</div>
-									<div class="service_icon text-center">
-										<i class="<?php echo htmlspecialchars($service_box['icon'], ENT_QUOTES); ?>"></i>
-									</div>
+					<div class="col-lg-3 col-md-6">
+						<div class="service_box  wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+							<div class="service_img_icon relative-position">
+								<div class="service_img">
+									<img src="assets/img/service/ser1.jpg" alt="">
 								</div>
-								<div class="service_text_two headline pera-content">
-									<h3><a href="<?php echo htmlspecialchars($service_box['href'], ENT_QUOTES); ?>"><?php echo htmlspecialchars($service_box['title'], ENT_QUOTES); ?></a></h3>
-									<p><?php echo htmlspecialchars($service_box['text'], ENT_QUOTES); ?></p>
+								<div class="service_icon text-center">
+									<i class="far fa-chart-bar"></i>
 								</div>
 							</div>
+							<div class="service_text_two headline pera-content">
+								<h3><a href="prawo-cywilne.html">Prawo cywilne</a></h3>
+								<p>Sprawy o zapłatę, odszkodowania, zniesienie współwłasności, analiza i sporządzanie umów oraz reprezentacja w sporach sądowych.</p>
+							</div>
 						</div>
-					<?php endforeach; ?>
+					</div>
+					<div class="col-lg-3 col-md-6">
+						<div class="service_box wow fadeInLeft" data-wow-delay="300ms" data-wow-duration="1500ms">
+							<div class="service_img_icon relative-position">
+								<div class="service_img">
+									<img src="assets/img/service/ser2.jpg" alt="">
+								</div>
+								<div class="service_icon text-center">
+									<i class="fas fa-hospital-alt"></i>
+								</div>
+							</div>
+							<div class="service_text_two headline pera-content">
+								<h3><a href="prawo-spadkowe.html">Prawo spadkowe</a></h3>
+								<p>Dziedziczenie, zachowek, dział spadku, testamenty oraz oświadczenia spadkowe prowadzone w sposób jasny i zrozumiały.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6">
+						<div class="service_box wow fadeInLeft" data-wow-delay="600ms" data-wow-duration="1500ms">
+							<div class="service_img_icon relative-position">
+								<div class="service_img">
+									<img src="assets/img/service/ser3.jpg" alt="">
+								</div>
+								<div class="service_icon text-center">
+									<i class="fas fa-users"></i>
+								</div>
+							</div>
+							<div class="service_text_two headline pera-content">
+								<h3><a href="obrona-w-sprawach-karnych.html">Obrona w sprawach karnych</a></h3>
+								<p>Obrona na każdym etapie postępowania karnego, od czynności Policji po sąd i postępowanie wykonawcze.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6">
+						<div class="service_box wow fadeInLeft" data-wow-delay="900ms" data-wow-duration="1500ms">
+							<div class="service_img_icon relative-position">
+								<div class="service_img">
+									<img src="assets/img/service/ser4.jpg" alt="">
+								</div>
+								<div class="service_icon text-center">
+									<i class="far fa-clone"></i>
+								</div>
+							</div>
+							<div class="service_text_two headline pera-content">
+								<h3><a href="oferta.html">Porady prawne i umowy</a></h3>
+								<p>Indywidualne konsultacje, opinie prawne, negocjacje i przygotowanie dokumentów, które zabezpieczają interesy Klienta.</p>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -704,36 +523,89 @@ $schema_data = [
 	<section id="case_study" class="case_study_section">
 		<div class="case_study_item">
 			<div id="tabsContent" class="tab-content">
-				<?php foreach ($case_studies as $index => $case): ?>
-					<?php $is_active = $index === 0; ?>
-					<div id="<?php echo htmlspecialchars($case['id'], ENT_QUOTES); ?>" class="tab-pane fade<?php echo $is_active ? ' active show' : ''; ?>">
-						<div class="case_title_text">
-							<div class="container">
-								<div class="section_title_area headline pera-content">
-									<p>
-										<span class="title_shape_left"></span>
-										specjalizacje
-									</p>
-									<h2><?php echo nl2br(htmlspecialchars($case['title'], ENT_QUOTES)); ?></h2>
-								</div>
-								<div class="case_study_btn">
-									<a class="block-display" href="<?php echo htmlspecialchars($case['href'], ENT_QUOTES); ?>">Poznaj szczegóły</a>
-								</div>
+				<div id="case1" class="tab-pane fade">
+					<div class="case_title_text">
+						<div class="container">
+							<div class="section_title_area headline pera-content">
+								<p>
+									<span class="title_shape_left"></span>
+									specjalizacje
+								</p>
+								<h2>
+									Prawo cywilne
+									i roszczenia majątkowe
+								</h2>
+							</div>
+							<div class="case_study_btn">
+								<a class="block-display" href="prawo-cywilne.html">Poznaj szczegóły</a>
 							</div>
 						</div>
 					</div>
-				<?php endforeach; ?>
+				</div>
+				<div id="case2" class="tab-pane fade  active show">
+					<div class="case_title_text">
+						<div class="container">
+							<div class="section_title_area headline pera-content">
+								<p>
+									<span class="title_shape_left"></span>
+									specjalizacje
+								</p>
+								<h2>
+									Prawo spadkowe
+									i dziedziczenie
+								</h2>
+							</div>
+							<div class="case_study_btn">
+								<a class="block-display" href="prawo-spadkowe.html">Poznaj szczegóły</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="case3" class="tab-pane fade">
+					<div class="case_title_text">
+						<div class="container">
+							<div class="section_title_area headline pera-content">
+								<p>
+									<span class="title_shape_left"></span>
+									specjalizacje
+								</p>
+								<h2>
+									Obrona w sprawach karnych
+									i postępowania wykonawcze
+								</h2>
+							</div>
+							<div class="case_study_btn">
+								<a class="block-display" href="obrona-w-sprawach-karnych.html">Poznaj szczegóły</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="case4" class="tab-pane fade">
+					<div class="case_title_text">
+						<div class="container">
+							<div class="section_title_area headline pera-content">
+								<p>
+									<span class="title_shape_left"></span>
+									specjalizacje
+								</p>
+								<h2>
+									Porady prawne
+									i obsługa umów
+								</h2>
+							</div>
+							<div class="case_study_btn">
+								<a class="block-display" href="oferta.html">Poznaj szczegóły</a>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
-			<div class="case_study_button clearfix ul-li">
+			<div class="case_study_button  clearfix ul-li">
 				<ul id="tabs" class="nav nav-tabs">
-					<?php foreach ($case_studies as $index => $case): ?>
-						<?php $is_active = $index === 0; ?>
-						<li class="nav-item">
-							<a href="!#" data-target="#<?php echo htmlspecialchars($case['id'], ENT_QUOTES); ?>" data-toggle="tab" class="nav-link<?php echo $is_active ? ' active' : ''; ?>">
-								<img src="<?php echo htmlspecialchars($case['image'], ENT_QUOTES); ?>" alt="">
-							</a>
-						</li>
-					<?php endforeach; ?>
+					<li class="nav-item"><a href="!#" data-target="#case1" data-toggle="tab" class="nav-link"><img src="assets/img/case/cl1.jpg" alt=""></a></li>
+					<li class="nav-item"><a href="!#" data-target="#case2" data-toggle="tab" class="nav-link active"><img src="assets/img/case/cl2.jpg" alt=""></a></li>
+					<li class="nav-item"><a href="!#" data-target="#case3" data-toggle="tab" class="nav-link"><img src="assets/img/case/cl3.jpg" alt=""></a></li>
+					<li class="nav-item"><a href="!#" data-target="#case4" data-toggle="tab" class="nav-link"><img src="assets/img/case/cl4.jpg" alt=""></a></li>
 				</ul>
 			</div>
 		</div>
@@ -751,13 +623,15 @@ $schema_data = [
 			<div class="section_title_area text-center headline pera-content">
 				<p>
 					<span class="title_shape_left"></span>
-					<?php echo htmlspecialchars($call_to_action_tagline, ENT_QUOTES); ?>
+					Doświadczenie od 2016 roku
 					<span class="title_shape_right"></span>
 				</p>
-				<h2><?php echo htmlspecialchars($call_to_action_title, ENT_QUOTES); ?></h2>
+				<h2>
+					Potrzebujesz wsparcia adwokata?
+				</h2>
 			</div>
 			<div class="call_action_number text-center">
-				<?php echo htmlspecialchars($call_to_action_phone, ENT_QUOTES); ?>
+				+48 502 319 645
 			</div>
 			<div class="call_action_btn ul-li text-center">
 				<ul>
@@ -780,10 +654,10 @@ $schema_data = [
 					<i class="flaticon-bidding"></i>
 				</div>
 				<div class="revenue_ammount">
-					<strong><?php echo htmlspecialchars($feature_highlight['prefix'], ENT_QUOTES); ?></strong><span class="count"><?php echo htmlspecialchars($feature_highlight['count'], ENT_QUOTES); ?></span>
+					<strong>%</strong><span class="count">100</span>
 				</div>
 				<div class="revenue_text">
-					<?php echo htmlspecialchars($feature_highlight['text'], ENT_QUOTES); ?>
+					Pełne zaangażowanie, dyskrecja i bezpieczeństwo informacji powierzonych kancelarii na każdym etapie współpracy.
 				</div>
 			</div>
 			<div class="skill_feature">
@@ -797,18 +671,46 @@ $schema_data = [
 					</h2>
 				</div>
 				<div class="skill_progress">
-					<?php foreach ($skill_bars as $skill_bar): ?>
-						<div class="single_experties">
-							<div class="progress_text">
-								<div class="skill-title float-left text-uppercase"><?php echo htmlspecialchars($skill_bar['title'], ENT_QUOTES); ?></div>
-								<div class="skill-percent float-right"><?php echo htmlspecialchars($skill_bar['percent'], ENT_QUOTES); ?></div>
-							</div>
-							<div class="progress">
-								<div class="progress-bar wow <?php echo htmlspecialchars($skill_bar['class'], ENT_QUOTES); ?> animated" role="progressbar" data-wow-duration="1.5s" data-wow-delay=".5s" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
-								</div>
+					<div class="single_experties">
+						<div class="progress_text">
+							<div class="skill-title float-left text-uppercase">prawo cywilne</div>
+							<div class="skill-percent float-right">70%</div>
+						</div>
+						<div class="progress">
+							<div class="progress-bar wow Rx-width-70 animated" role="progressbar" data-wow-duration="1.5s" data-wow-delay=".5s" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
 							</div>
 						</div>
-					<?php endforeach; ?>
+					</div>
+					<div class="single_experties">
+						<div class="progress_text">
+							<div class="skill-title float-left text-uppercase">prawo spadkowe</div>
+							<div class="skill-percent float-right">42%</div>
+						</div>
+						<div class="progress">
+							<div class="progress-bar wow Rx-width-42 animated" role="progressbar" data-wow-duration="1.5s" data-wow-delay=".5s" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+							</div>
+						</div>
+					</div>
+					<div class="single_experties">
+						<div class="progress_text">
+							<div class="skill-title float-left text-uppercase">obrona karna</div>
+							<div class="skill-percent float-right">91%</div>
+						</div>
+						<div class="progress">
+							<div class="progress-bar wow Rx-width-91 animated" role="progressbar" data-wow-duration="1.5s" data-wow-delay=".5s" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+							</div>
+						</div>
+					</div>
+					<div class="single_experties">
+						<div class="progress_text">
+							<div class="skill-title float-left text-uppercase">porady i umowy</div>
+							<div class="skill-percent float-right">80%</div>
+						</div>
+						<div class="progress">
+							<div class="progress-bar wow Rx-width-80 animated" role="progressbar" data-wow-duration="1.5s" data-wow-delay=".5s" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -847,27 +749,82 @@ $schema_data = [
 			</div>
 			<div class="how_work_content relative-position">
 				<div class="row">
-					<?php foreach ($how_steps as $step): ?>
-						<div class="col-lg-3 col-md-6">
-							<div class="how_work_box text-center">
-								<div class="how_work_img_serial relative-position">
-									<div class="how_work_img">
-										<img src="<?php echo htmlspecialchars($step['image'], ENT_QUOTES); ?>" alt="">
-									</div>
-									<div class="how_work_serial text-center">
-										<?php echo htmlspecialchars($step['number'], ENT_QUOTES); ?>
-									</div>
+					<div class="col-lg-3 col-md-6">
+						<div class="how_work_box text-center">
+							<div class="how_work_img_serial relative-position">
+								<div class="how_work_img">
+									<img src="assets/img/feature/hw1.jpg" alt="">
 								</div>
-								<div class="how_work_text pera-content headline">
-									<h4><?php echo htmlspecialchars($step['title'], ENT_QUOTES); ?></h4>
-									<p><?php echo htmlspecialchars($step['text'], ENT_QUOTES); ?></p>
-								</div>
-								<div class="how_work_btn">
-									<a href="!#"><i class="fas fa-arrow-right"></i></a>
+								<div class="how_work_serial text-center">
+									01
 								</div>
 							</div>
+							<div class="how_work_text pera-content headline">
+								<h4>Poznanie sprawy</h4>
+								<p>Rozmowa, analiza dokumentów i określenie realnych możliwości prawnych oraz celów Klienta.</p>
+							</div>
+							<div class="how_work_btn">
+								<a href="!#"><i class="fas fa-arrow-right"></i></a>
+							</div>
 						</div>
-					<?php endforeach; ?>
+					</div>
+					<div class="col-lg-3 col-md-6">
+						<div class="how_work_box text-center">
+							<div class="how_work_img_serial relative-position">
+								<div class="how_work_img">
+									<img src="assets/img/feature/hw2.jpg" alt="">
+								</div>
+								<div class="how_work_serial text-center">
+									02
+								</div>
+							</div>
+							<div class="how_work_text pera-content headline">
+								<h4>Strategia działania</h4>
+								<p>Opracowanie planu, dobór właściwych środków prawnych i omówienie kolejnych kroków postępowania.</p>
+							</div>
+							<div class="how_work_btn">
+								<a href="!#"><i class="fas fa-arrow-right"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6">
+						<div class="how_work_box text-center">
+							<div class="how_work_img_serial relative-position">
+								<div class="how_work_img">
+									<img src="assets/img/feature/hw3.jpg" alt="">
+								</div>
+								<div class="how_work_serial text-center">
+									03
+								</div>
+							</div>
+							<div class="how_work_text pera-content headline">
+								<h4>Prowadzenie sprawy</h4>
+								<p>Reprezentacja przed sądami i urzędami, sporządzanie pism oraz stała komunikacja z Klientem.</p>
+							</div>
+							<div class="how_work_btn">
+								<a href="!#"><i class="fas fa-arrow-right"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6">
+						<div class="how_work_box text-center">
+							<div class="how_work_img_serial relative-position">
+								<div class="how_work_img">
+									<img src="assets/img/feature/hw4.jpg" alt="">
+								</div>
+								<div class="how_work_serial text-center">
+									04
+								</div>
+							</div>
+							<div class="how_work_text pera-content headline">
+								<h4>Finalizacja i wsparcie</h4>
+								<p>Zamknięcie sprawy, omówienie skutków prawnych i dalsze wsparcie w realizacji decyzji.</p>
+							</div>
+							<div class="how_work_btn">
+								<a href="!#"><i class="fas fa-arrow-right"></i></a>
+							</div>
+						</div>
+					</div>
 				</div>
 				<div class="work_btn">
 					<a href="kontakt.html">Skontaktuj się</a>
@@ -886,23 +843,62 @@ $schema_data = [
 			<div class="testimonial_carousel">
 				<div id="testimonial_carouselid" class="carousel slide" data-ride="carousel">
 					<div class="carousel-inner">
-						<?php foreach ($testimonials as $index => $testimonial): ?>
-							<?php $is_active = $index === 0; ?>
-							<div class="carousel-item<?php echo $is_active ? ' active' : ''; ?>">
-								<div class="testimonial_item_content text-center">
-									<div class="testimonial_icon">
-										<i class="flaticon-quotation"></i>
-									</div>
-									<div class="testimonial_quote">
-										“ <?php echo htmlspecialchars($testimonial['quote'], ENT_QUOTES); ?> ”
-									</div>
-									<div class="testimonial_meta headline">
-										<h4><?php echo htmlspecialchars($testimonial['name'], ENT_QUOTES); ?></h4>
-										<span><?php echo htmlspecialchars($testimonial['role'], ENT_QUOTES); ?></span>
-									</div>
+						<div class="carousel-item active">
+							<div class="testimonial_item_content text-center">
+								<div class="testimonial_icon">
+									<i class="flaticon-quotation"></i>
+								</div>
+								<div class="testimonial_quote">
+									“Szybka reakcja i konkretne wyjaśnienia pozwoliły mi spokojnie przejść przez sprawę spadkową. Pełen profesjonalizm i empatia.”
+								</div>
+								<div class="testimonial_meta headline">
+									<h4>Klientka z Trzebnicy</h4>
+									<span>Prawo spadkowe</span>
 								</div>
 							</div>
-						<?php endforeach; ?>
+						</div>
+						<div class="carousel-item">
+							<div class="testimonial_item_content text-center">
+								<div class="testimonial_icon">
+									<i class="flaticon-quotation"></i>
+								</div>
+								<div class="testimonial_quote">
+									“Rzetelna obsługa sprawy cywilnej, jasne zasady współpracy i stała informacja o postępach. Polecam kancelarię w Trzebnicy.”
+								</div>
+								<div class="testimonial_meta headline">
+									<h4>Klient z Wrocławia</h4>
+									<span>Prawo cywilne</span>
+								</div>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="testimonial_item_content text-center">
+								<div class="testimonial_icon">
+									<i class="flaticon-quotation"></i>
+								</div>
+								<div class="testimonial_quote">
+									“Profesjonalna obrona w sprawie karnej i świetne przygotowanie. Czułem realne wsparcie na każdym etapie postępowania.”
+								</div>
+								<div class="testimonial_meta headline">
+									<h4>Klient indywidualny</h4>
+									<span>Obrona karna</span>
+								</div>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="testimonial_item_content text-center">
+								<div class="testimonial_icon">
+									<i class="flaticon-quotation"></i>
+								</div>
+								<div class="testimonial_quote">
+									“Świetne przygotowanie umów i szybka analiza ryzyk prawnych. Współpraca na najwyższym poziomie.”
+								</div>
+								<div class="testimonial_meta headline">
+									<h4>Przedsiębiorca</h4>
+									<span>Porady prawne i umowy</span>
+								</div>
+							</div>
+						</div>
 					</div>
 					<ol class="carousel-indicators">
 						<li data-target="#testimonial_carouselid" data-slide-to="0" class="active">
@@ -930,26 +926,71 @@ $schema_data = [
 	<section id="call_action" class="call_action_Section call_action_blackhover">
 		<div class="call_action_list clearfix ul-li">
 			<ul>
-				<?php foreach ($call_action_items as $item): ?>
-					<li>
-						<div class="call_action_icon">
-							<i class="<?php echo htmlspecialchars($item['icon'], ENT_QUOTES); ?>"></i>
-						</div>
-						<div class="call_action_text headline pera-content">
-							<p>
-								<?php if (!empty($item['href'])): ?>
-									<a href="<?php echo htmlspecialchars($item['href'], ENT_QUOTES); ?>"><?php echo htmlspecialchars($item['text'], ENT_QUOTES); ?></a>
-								<?php else: ?>
-									<?php echo htmlspecialchars($item['text'], ENT_QUOTES); ?>
-								<?php endif; ?>
-							</p>
-							<h3><?php echo htmlspecialchars($item['title'], ENT_QUOTES); ?></h3>
-						</div>
-						<div class="c-icon_bg text-center">
-							<i class="fas fa-arrow-down"></i>
-						</div>
-					</li>
-				<?php endforeach; ?>
+				<li>
+					<div class="call_action_icon">
+						<i class="fas fa-map-marker-alt"></i>
+					</div>
+					<div class="call_action_text headline pera-content">
+						<p>ul. Ignacego Daszyńskiego 67/4, 55-100 Trzebnica</p>
+						<h3>Adres kancelarii</h3>
+					</div>
+					<div class="c-icon_bg text-center">
+						<i class="fas fa-arrow-down"></i>
+					</div>
+				</li>
+				<!-- /call-action -->
+				<li>
+					<div class="call_action_icon">
+						<i class="flaticon-smartphone"></i>
+					</div>
+					<div class="call_action_text headline pera-content">
+						<p><a href="tel:+48502319645">+48 502 319 645</a></p>
+						<h3>Telefon</h3>
+					</div>
+					<div class="c-icon_bg text-center">
+						<i class="fas fa-arrow-down"></i>
+					</div>
+				</li>
+				<!-- /call-action -->
+				<li>
+					<div class="call_action_icon">
+						<i class="flaticon-email"></i>
+					</div>
+					<div class="call_action_text headline pera-content">
+						<p><a href="mailto:biuro@adwokat-trzebnica.com">biuro@adwokat-trzebnica.com</a></p>
+						<h3>E-mail</h3>
+					</div>
+					<div class="c-icon_bg text-center">
+						<i class="fas fa-arrow-down"></i>
+					</div>
+				</li>
+				<!-- /call-action -->
+				<li>
+					<div class="call_action_icon">
+						<i class="flaticon-shout"></i>
+					</div>
+					<div class="call_action_text headline pera-content">
+						<p><a href="https://adwokat-trzebnica.com">www.adwokat-trzebnica.com</a></p>
+						<h3>Strona internetowa</h3>
+					</div>
+					<div class="c-icon_bg text-center">
+						<i class="fas fa-arrow-down"></i>
+					</div>
+				</li>
+				<!-- /call-action -->
+				<li>
+					<div class="call_action_icon">
+						<i class="flaticon-schedule"></i>
+					</div>
+					<div class="call_action_text headline pera-content">
+						<p>Umów konsultację</p>
+						<h3>Kontakt</h3>
+					</div>
+					<div class="c-icon_bg text-center">
+						<i class="fas fa-arrow-down"></i>
+					</div>
+				</li>
+				<!-- /call-action -->
 			</ul>
 		</div>
 	</section>
@@ -973,25 +1014,108 @@ $schema_data = [
 			</div>
 			<div class="service_area">
 				<div id="service_slide" class="service_slider owl-carousel">
-					<?php foreach ($service_slider_items as $service_slide): ?>
-						<div class="service_img_text wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
-							<div class="service_img relative-position">
-								<img src="<?php echo htmlspecialchars($service_slide['image'], ENT_QUOTES); ?>" alt="">
+					<div class="service_img_text wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+						<div class="service_img relative-position">
+							<img src="assets/img/service/sr2.jpg" alt="">
+						</div>
+						<div class="service_text relative-position">
+							<div class="service_icon float-left">
+								<i class="flaticon-courthouse"></i>
 							</div>
-							<div class="service_text relative-position">
-								<div class="service_icon float-left">
-									<i class="<?php echo htmlspecialchars($service_slide['icon'], ENT_QUOTES); ?>"></i>
-								</div>
-								<div class="service_check text-center float-right">
-									<a class="block-display" href="!#"><i class="fas fa-check"></i></a>
-								</div>
-								<div class="service_content headline pera-content">
-									<h3><a href="oferta.html"><?php echo htmlspecialchars($service_slide['title'], ENT_QUOTES); ?></a></h3>
-									<p><?php echo htmlspecialchars($service_slide['text'], ENT_QUOTES); ?></p>
-								</div>
+							<div class="service_check text-center float-right">
+								<a class="block-display " href="!#"><i class="fas fa-check"></i></a>
+							</div>
+							<div class="service_content headline pera-content">
+								<h3><a href="oferta.html">Porady prawne i analiza umów</a></h3>
+								<p>Profesjonalne konsultacje, opinie prawne oraz przygotowanie umów i pism procesowych.</p>
 							</div>
 						</div>
-					<?php endforeach; ?>
+					</div>
+					<div class="service_img_text wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
+						<div class="service_img relative-position">
+							<img src="assets/img/service/sr3.jpg" alt="">
+						</div>
+						<div class="service_text relative-position">
+							<div class="service_icon float-left">
+								<i class="flaticon-mace"></i>
+							</div>
+							<div class="service_check text-center float-right">
+								<a class="block-display " href="!#"><i class="fas fa-check"></i></a>
+							</div>
+							<div class="service_content headline pera-content">
+								<h3><a href="prawo-cywilne.html">Sprawy o zapłatę i windykacja</a></h3>
+								<p>Skuteczne dochodzenie roszczeń, sprzeciwy od nakazu zapłaty i negocjacje ugodowe.</p>
+							</div>
+						</div>
+					</div>
+					<div class="service_img_text wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
+						<div class="service_img relative-position">
+							<img src="assets/img/service/sr1.jpg" alt="">
+						</div>
+						<div class="service_text relative-position">
+							<div class="service_icon float-left">
+								<i class="flaticon-crutch"></i>
+							</div>
+							<div class="service_check text-center float-right">
+								<a class="block-display " href="!#"><i class="fas fa-check"></i></a>
+							</div>
+							<div class="service_content headline pera-content">
+								<h3><a href="prawo-spadkowe.html">Zachowek i dział spadku</a></h3>
+								<p>Kompleksowe wsparcie w sprawach dziedziczenia, testamentów i postępowań spadkowych.</p>
+							</div>
+						</div>
+					</div>
+					<div class="service_img_text">
+						<div class="service_img relative-position">
+							<img src="assets/img/service/sr2.jpg" alt="">
+						</div>
+						<div class="service_text relative-position">
+							<div class="service_icon float-left">
+								<i class="flaticon-courthouse"></i>
+							</div>
+							<div class="service_check text-center float-right">
+								<a class="block-display " href="!#"><i class="fas fa-check"></i></a>
+							</div>
+							<div class="service_content headline pera-content">
+								<h3><a href="obrona-w-sprawach-karnych.html">Obrona w sprawach karnych</a></h3>
+								<p>Obrona oraz reprezentacja pokrzywdzonych w postępowaniu przygotowawczym i sądowym.</p>
+							</div>
+						</div>
+					</div>
+					<div class="service_img_text">
+						<div class="service_img relative-position">
+							<img src="assets/img/service/sr3.jpg" alt="">
+						</div>
+						<div class="service_text relative-position">
+							<div class="service_icon float-left">
+								<i class="flaticon-mace"></i>
+							</div>
+							<div class="service_check text-center float-right">
+								<a class="block-display " href="!#"><i class="fas fa-check"></i></a>
+							</div>
+							<div class="service_content headline pera-content">
+								<h3><a href="obrona-w-sprawach-karnych.html">Postępowanie wykonawcze</a></h3>
+								<p>Wnioski o dozór elektroniczny, odroczenie wykonania kary i warunkowe zwolnienie.</p>
+							</div>
+						</div>
+					</div>
+					<div class="service_img_text">
+						<div class="service_img relative-position">
+							<img src="assets/img/service/sr1.jpg" alt="">
+						</div>
+						<div class="service_text relative-position">
+							<div class="service_icon float-left">
+								<i class="flaticon-crutch"></i>
+							</div>
+							<div class="service_check text-center float-right">
+								<a class="block-display " href="!#"><i class="fas fa-check"></i></a>
+							</div>
+							<div class="service_content headline pera-content">
+								<h3><a href="oferta.html">Prawo rodzinne i opiekuńcze</a></h3>
+								<p>Rozwody, alimenty, władza rodzicielska oraz ustalenie kontaktów z dziećmi.</p>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -1009,7 +1133,7 @@ $schema_data = [
 					Kancelaria Adwokacka
 					<span class="title_shape_right"></span>
 				</p>
-				<h2><?php echo htmlspecialchars($firm_name, ENT_QUOTES); ?> – Twoje zaufane wsparcie prawne<br>w <?php echo htmlspecialchars($city_primary, ENT_QUOTES); ?>, <?php echo htmlspecialchars($city_secondary, ENT_QUOTES); ?> i całym <?php echo htmlspecialchars($region_primary, ENT_QUOTES); ?></h2>
+				<h2>KANCELARIA ADWOKACKA ADWOKAT Katarzyna Maj – Twoje zaufane wsparcie prawne w Trzebnicy, Wrocławiu i całym Dolnym Śląsku</h2>
 			</div>
 
 			<div class="row" style="margin-bottom: 50px;">
@@ -1018,7 +1142,10 @@ $schema_data = [
 						<div class="headline pera-content">
 							<h3 style="color: #b8935e; margin-bottom: 25px; font-size: 28px;">Witaj w Kancelarii Adwokackiej Katarzyny Maj</h3>
 							<p style="font-size: 16px; line-height: 1.8; margin-bottom: 20px;">
-								Witaj na stronie internetowej <?php echo htmlspecialchars($firm_name_short, ENT_QUOTES); ?> – miejsca, w którym prawo spotyka się z zaangażowaniem, doświadczeniem i ludzkim podejściem. Niezależnie od tego, czy potrzebujesz pomocy w sprawie cywilnej, spadkowej czy karnej – otrzymasz tutaj kompleksowe wsparcie prawne dostosowane do Twojej sytuacji. Priorytetem kancelarii jest skuteczna ochrona Twoich interesów, pełna dyskrecja oraz jasna, zrozumiała komunikacja na każdym etapie współpracy.
+								Witaj na stronie internetowej Kancelarii Adwokackiej Katarzyny Maj – miejsca, w którym prawo spotyka się z zaangażowaniem, doświadczeniem i ludzkim podejściem. Niezależnie od tego, czy potrzebujesz pomocy w sprawie cywilnej, spadkowej czy karnej – otrzymasz u nas kompleksowe wsparcie prawne dostosowane do Twojej sytuacji. Prowadzimy sprawy mieszkańców Trzebnicy, Wrocławia oraz klientów z całego Dolnego Śląska i Wielkopolski, dbając o skuteczność działań oraz przejrzyste zasady współpracy.
+							</p>
+							<p style="font-size: 16px; line-height: 1.8; margin-bottom: 0;">
+								Naszym priorytetem jest ochrona interesów Klienta, rzetelna analiza dokumentów i przygotowanie strategii, która realnie zwiększa szanse na korzystne rozstrzygnięcie. W kancelarii stawiamy na komunikację, terminowość i pełne zrozumienie sprawy, dzięki czemu Klienci wiedzą, jakie kroki są podejmowane i czego mogą się spodziewać.
 							</p>
 						</div>
 					</div>
@@ -1031,7 +1158,10 @@ $schema_data = [
 						<div class="headline pera-content">
 							<h3 style="color: #b8935e; margin-bottom: 20px; font-size: 24px;"><i class="fas fa-user-tie" style="margin-right: 10px;"></i>Kim jestem?</h3>
 							<p style="font-size: 15px; line-height: 1.8;">
-								Nazywam się <strong><?php echo htmlspecialchars($lawyer_name, ENT_QUOTES); ?></strong> i jestem adwokatem z wieloletnim doświadczeniem zawodowym. Ukończyłam studia prawnicze na Wydziale Prawa i Administracji <strong>Uniwersytetu im. Adama Mickiewicza w Poznaniu</strong>, odbyłam aplikację adwokacką w <strong>Okręgowej Radzie Adwokackiej we Wrocławiu</strong>, a od 2016 roku prowadzę własną kancelarię adwokacką z siedzibą w <?php echo htmlspecialchars($city_primary, ENT_QUOTES); ?>. Obsługuję klientów indywidualnych oraz przedsiębiorców, głównie z województwa <?php echo htmlspecialchars($region_primary, ENT_QUOTES); ?> i <?php echo htmlspecialchars($region_secondary, ENT_QUOTES); ?>, ale reprezentuję klientów także w innych regionach Polski.
+								Nazywam się <strong>Katarzyna Maj</strong> i jestem adwokatem z wieloletnim doświadczeniem zawodowym. Ukończyłam studia prawnicze na Wydziale Prawa i Administracji <strong>Uniwersytetu im. Adama Mickiewicza w Poznaniu</strong>, odbyłam aplikację adwokacką w <strong>Okręgowej Radzie Adwokackiej we Wrocławiu</strong>, a od 2016 roku prowadzę własną, jednoosobową kancelarię adwokacką z siedzibą w Trzebnicy. Obsługuję klientów indywidualnych oraz przedsiębiorców głównie z województwa dolnośląskiego i wielkopolskiego, ale w razie potrzeby reprezentuję klientów także w innych regionach Polski.
+							</p>
+							<p style="font-size: 15px; line-height: 1.8; margin-bottom: 0;">
+								Każdą sprawę traktuję indywidualnie, dokładnie analizując stan faktyczny i prawny. Dzięki temu Klienci otrzymują realną, dopasowaną do sytuacji pomoc prawną, która przekłada się na skuteczność postępowania.
 							</p>
 						</div>
 					</div>
@@ -1041,7 +1171,10 @@ $schema_data = [
 						<div class="headline pera-content">
 							<h3 style="color: #fff; margin-bottom: 20px; font-size: 24px;"><i class="fas fa-balance-scale" style="margin-right: 10px;"></i>Profesjonalizm. Doświadczenie. Zaangażowanie.</h3>
 							<p style="font-size: 15px; line-height: 1.8; color: #fff;">
-								Witamy na stronie <strong><?php echo htmlspecialchars($firm_name, ENT_QUOTES); ?></strong>, miejsca stworzonego z myślą o osobach poszukujących rzetelnej, fachowej i indywidualnej pomocy prawnej. Kancelaria mieści się w dogodnej lokalizacji – przy <strong><?php echo htmlspecialchars($address_street, ENT_QUOTES); ?> w <?php echo htmlspecialchars($city_primary, ENT_QUOTES); ?></strong> – i oferuje kompleksowe usługi prawne dla klientów z <?php echo htmlspecialchars($city_primary, ENT_QUOTES); ?>, <?php echo htmlspecialchars($city_secondary, ENT_QUOTES); ?> i okolic.
+								Witamy na stronie <strong>KANCELARII ADWOKACKIEJ ADWOKAT Katarzyna Maj</strong>, miejsca stworzonego z myślą o osobach poszukujących rzetelnej, fachowej i indywidualnej pomocy prawnej. Nasza kancelaria mieści się w dogodnej lokalizacji – przy <strong>ul. Ignacego Daszyńskiego 67/4 w Trzebnicy</strong> – i oferuje kompleksowe usługi prawne dla klientów indywidualnych, przedsiębiorców oraz instytucji z Trzebnicy, Wrocławia i okolic.
+							</p>
+							<p style="font-size: 15px; line-height: 1.8; color: #fff; margin-bottom: 0;">
+								Dbamy o dyskrecję, precyzyjne przygotowanie dokumentów oraz terminowość. Dzięki temu współpraca z kancelarią daje poczucie bezpieczeństwa i pełnej kontroli nad przebiegiem sprawy.
 							</p>
 						</div>
 					</div>
@@ -1062,7 +1195,7 @@ $schema_data = [
 										<i class="fas fa-file-contract" style="color: #b8935e; margin-right: 10px;"></i>Prawo cywilne i dochodzenie roszczeń
 									</h4>
 									<p style="font-size: 15px; line-height: 1.8;">
-										Reprezentuję Klientów w sprawach o zapłatę, windykacjach, sprzeciwach od nakazu zapłaty, sprawach o zniesienie współwłasności oraz w egzekucjach komorniczych. Przygotowuję i analizuję umowy, prowadzę negocjacje i reprezentuję w sporach sądowych.
+										Reprezentuję Klientów w sprawach o zapłatę, windykacjach, sprzeciwach od nakazu zapłaty, sprawach o zniesienie współwłasności oraz w egzekucjach komorniczych. Przygotowuję i analizuję umowy, prowadzę negocjacje i reprezentuję w sporach sądowych. Skutecznie dochodzę roszczeń i dbam o zabezpieczenie interesów majątkowych.
 									</p>
 								</div>
 
@@ -1071,7 +1204,7 @@ $schema_data = [
 										<i class="fas fa-landmark" style="color: #b8935e; margin-right: 10px;"></i>Prawo spadkowe
 									</h4>
 									<p style="font-size: 15px; line-height: 1.8;">
-										Stwierdzenie nabycia spadku, dział spadku, sprawy o zachowek, testamenty, oświadczenia o przyjęciu lub odrzuceniu spadku oraz wydziedziczenie – to sprawy wymagające szczególnej wrażliwości i precyzji.
+										Stwierdzenie nabycia spadku, dział spadku, sprawy o zachowek, testamenty, oświadczenia o przyjęciu lub odrzuceniu spadku, wydziedziczenie – to sprawy, które często towarzyszą trudnym momentom życiowym. Zapewniam jasne wsparcie na każdym etapie postępowania spadkowego.
 									</p>
 								</div>
 
@@ -1080,7 +1213,7 @@ $schema_data = [
 										<i class="fas fa-shield-alt" style="color: #b8935e; margin-right: 10px;"></i>Obrona w sprawach karnych
 									</h4>
 									<p style="font-size: 15px; line-height: 1.8;">
-										Zapewniam obronę przed sądami wszystkich instancji, pomoc na etapie postępowania przygotowawczego oraz wsparcie po wydaniu wyroku – w postępowaniach wykonawczych, w tym wnioski o dozór elektroniczny lub warunkowe zwolnienie.
+										Zapewniam obronę w sprawach karnych przed wszystkimi sądami, pomagam na etapie postępowania przygotowawczego, a także po wydaniu wyroku – w postępowaniach wykonawczych. Składam wnioski o dozór elektroniczny, odroczenie wykonania kary, warunkowe przedterminowe zwolnienie i inne środki służące ochronie interesów osób skazanych.
 									</p>
 								</div>
 
@@ -1089,7 +1222,7 @@ $schema_data = [
 										<i class="fas fa-comments" style="color: #b8935e; margin-right: 10px;"></i>Porady prawne i umowy
 									</h4>
 									<p style="font-size: 15px; line-height: 1.8;">
-										Oferuję konsultacje prawne, sporządzanie i opiniowanie umów, pism procesowych oraz reprezentację w negocjacjach. Każda porada jest dopasowana do Twojej sytuacji i realnych możliwości.
+										Oferuję konsultacje prawne, sporządzanie i opiniowanie umów, pism procesowych oraz reprezentację w negocjacjach. Doradztwo jest zawsze dopasowane do sytuacji Klienta i opiera się na aktualnych przepisach oraz praktyce sądowej.
 									</p>
 								</div>
 							</div>
@@ -1114,7 +1247,7 @@ $schema_data = [
 										</div>
 										<h4 style="color: #333; font-size: 18px; margin-bottom: 15px;">Indywidualne podejście</h4>
 										<p style="font-size: 14px; line-height: 1.6;">
-											Każda sprawa jest inna. Analizuję Twoją sytuację od podstaw i wspólnie wypracowujemy najlepszą strategię działania.
+											Każda sprawa jest inna. Nie korzystam ze schematów – analizuję Twoją sytuację od podstaw i wspólnie wypracowujemy najlepszą strategię.
 										</p>
 									</div>
 								</div>
@@ -1138,7 +1271,7 @@ $schema_data = [
 										</div>
 										<h4 style="color: #333; font-size: 18px; margin-bottom: 15px;">Rzetelność i dostępność</h4>
 										<p style="font-size: 14px; line-height: 1.6;">
-											Szybko odpowiadam na wiadomości i telefony. Terminy spotkań ustalam elastycznie.
+											Szybko odpowiadam na wiadomości i telefony. Spotkania ustalam elastycznie, dostosowując się do Twojego grafiku.
 										</p>
 									</div>
 								</div>
@@ -1150,7 +1283,7 @@ $schema_data = [
 										</div>
 										<h4 style="color: #333; font-size: 18px; margin-bottom: 15px;">Lokalne doświadczenie</h4>
 										<p style="font-size: 14px; line-height: 1.6;">
-											Znam realia sądów w <?php echo htmlspecialchars($city_primary, ENT_QUOTES); ?> i <?php echo htmlspecialchars($city_secondary, ENT_QUOTES); ?>. To przekłada się na skuteczność działań.
+											Znam realia funkcjonowania sądów w Trzebnicy i Wrocławiu. To przekłada się na większą skuteczność działań.
 										</p>
 									</div>
 								</div>
@@ -1167,11 +1300,11 @@ $schema_data = [
 							<i class="fas fa-phone-alt" style="margin-right: 15px;"></i>Skontaktuj się ze mną
 						</h3>
 						<div style="margin: 30px 0;">
-							<p style="font-size: 18px; margin-bottom: 10px; color: #ecf0f1;"><i class="fas fa-map-marker-alt" style="margin-right: 10px; color: #b8935e;"></i><strong><?php echo htmlspecialchars($firm_name, ENT_QUOTES); ?></strong></p>
-							<p style="font-size: 16px; margin-bottom: 10px; color: #ecf0f1;"><i class="fas fa-building" style="margin-right: 10px; color: #b8935e;"></i><?php echo htmlspecialchars($address_street, ENT_QUOTES); ?>, <?php echo htmlspecialchars($postal_code, ENT_QUOTES); ?> <?php echo htmlspecialchars($address_city, ENT_QUOTES); ?></p>
-							<p style="font-size: 16px; margin-bottom: 10px; color: #ecf0f1;"><i class="fas fa-phone" style="margin-right: 10px; color: #b8935e;"></i><a href="tel:<?php echo htmlspecialchars($phone_link, ENT_QUOTES); ?>" style="color: #fff; font-weight: bold;"><?php echo htmlspecialchars($phone_display, ENT_QUOTES); ?></a></p>
-							<p style="font-size: 16px; margin-bottom: 10px; color: #ecf0f1;"><i class="fas fa-envelope" style="margin-right: 10px; color: #b8935e;"></i><a href="mailto:<?php echo htmlspecialchars($email, ENT_QUOTES); ?>" style="color: #fff;"><?php echo htmlspecialchars($email, ENT_QUOTES); ?></a></p>
-							<p style="font-size: 16px; color: #ecf0f1;"><i class="fas fa-globe" style="margin-right: 10px; color: #b8935e;"></i><a href="<?php echo htmlspecialchars($site_url, ENT_QUOTES); ?>" style="color: #fff;"><?php echo htmlspecialchars($site_domain, ENT_QUOTES); ?></a></p>
+							<p style="font-size: 18px; margin-bottom: 10px; color: #ecf0f1;"><i class="fas fa-map-marker-alt" style="margin-right: 10px; color: #b8935e;"></i><strong>KANCELARIA ADWOKACKA ADWOKAT Katarzyna Maj</strong></p>
+							<p style="font-size: 16px; margin-bottom: 10px; color: #ecf0f1;"><i class="fas fa-building" style="margin-right: 10px; color: #b8935e;"></i>ul. Ignacego Daszyńskiego 67/4, 55-100 Trzebnica</p>
+							<p style="font-size: 16px; margin-bottom: 10px; color: #ecf0f1;"><i class="fas fa-phone" style="margin-right: 10px; color: #b8935e;"></i><a href="tel:+48502319645" style="color: #fff; font-weight: bold;">+48 502 319 645</a></p>
+							<p style="font-size: 16px; margin-bottom: 10px; color: #ecf0f1;"><i class="fas fa-envelope" style="margin-right: 10px; color: #b8935e;"></i><a href="mailto:biuro@adwokat-trzebnica.com" style="color: #fff;">biuro@adwokat-trzebnica.com</a></p>
+							<p style="font-size: 16px; color: #ecf0f1;"><i class="fas fa-globe" style="margin-right: 10px; color: #b8935e;"></i><a href="https://adwokat-trzebnica.com" style="color: #fff;">www.adwokat-trzebnica.com</a></p>
 						</div>
 						<div style="margin-top: 40px;">
 							<a href="kontakt.html" class="block-display" style="display: inline-block; background: #b8935e; color: #fff; padding: 18px 50px; border-radius: 50px; font-size: 18px; font-weight: bold; text-decoration: none; transition: all 0.3s ease; box-shadow: 0 5px 15px rgba(184, 147, 94, 0.4);">

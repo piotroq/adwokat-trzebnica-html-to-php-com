@@ -56,7 +56,11 @@
 							</ul>
 						</li>
 					<?php else: ?>
-						<li><a href="<?php echo htmlspecialchars($item['href'], ENT_QUOTES); ?>"><?php echo htmlspecialchars($item['label'], ENT_QUOTES); ?></a></li>
+						<li>
+							<a href="<?php echo htmlspecialchars($item['href'], ENT_QUOTES); ?>">
+								<?php echo htmlspecialchars($item['label'], ENT_QUOTES); ?>
+							</a>
+						</li>
 					<?php endif; ?>
 				<?php endforeach; ?>
 			</ul>
@@ -102,12 +106,20 @@
 									</a>
 									<ul class="dropdown-menu">
 										<?php foreach ($item['children'] as $child): ?>
-											<li><a href="<?php echo htmlspecialchars($child['href'], ENT_QUOTES); ?>"><?php echo htmlspecialchars($child['label'], ENT_QUOTES); ?></a></li>
+											<li>
+												<a href="<?php echo htmlspecialchars($child['href'], ENT_QUOTES); ?>">
+													<?php echo htmlspecialchars($child['label'], ENT_QUOTES); ?>
+												</a>
+											</li>
 										<?php endforeach; ?>
 									</ul>
 								</li>
 							<?php else: ?>
-								<li><a href="<?php echo htmlspecialchars($item['href'], ENT_QUOTES); ?>"><?php echo htmlspecialchars($item['label'], ENT_QUOTES); ?></a></li>
+								<li>
+									<a href="<?php echo htmlspecialchars($item['href'], ENT_QUOTES); ?>">
+										<?php echo htmlspecialchars($item['label'], ENT_QUOTES); ?>
+									</a>
+								</li>
 							<?php endif; ?>
 						<?php endforeach; ?>
 					</ul>
@@ -134,7 +146,9 @@
 					</ul>
 				</div>
 				<div class="m_get_quote">
-					<a href="<?php echo htmlspecialchars($header_cta_link, ENT_QUOTES); ?>"><?php echo htmlspecialchars($header_cta_button, ENT_QUOTES); ?></a>
+					<a href="<?php echo htmlspecialchars($header_cta_link, ENT_QUOTES); ?>">
+						<?php echo htmlspecialchars($header_cta_button, ENT_QUOTES); ?>
+					</a>
 				</div>
 			</div>
 		</div>
