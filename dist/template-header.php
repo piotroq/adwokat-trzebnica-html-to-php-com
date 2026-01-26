@@ -37,15 +37,15 @@ $header_email = isset($header_email) ? $header_email : "biuro@adwokat-trzebnica.
 					</li>
 					<li><a href="o-mnie.html">O mnie</a></li>
 					<li class="dropdown">
-						<a href="oferta.html">Oferta</a>
+						<a href="oferta.php">Oferta</a>
 						<ul class="dropdown-menu clearfix">
 							<li><a href="prawo-cywilne.php">Prawo cywilne</a></li>
-							<li><a href="prawo-spadkowe.html">Prawo spadkowe</a></li>
-							<li><a href="obrona-w-sprawach-karnych.html">Obrona w sprawach karnych</a></li>
+							<li><a href="prawo-spadkowe.php">Prawo spadkowe</a></li>
+							<li><a href="obrona-w-sprawach-karnych.php">Obrona w sprawach karnych</a></li>
 						</ul>
 					</li>
-					<li><a href="faq.html">FAQ & Pytania</a></li>
-					<li><a href="kontakt.html">Kontakt</a></li>
+					<li><a href="faq-pytania.php">FAQ & Pytania</a></li>
+					<li><a href="kontakt.php">Kontakt</a></li>
 				</ul>
 			</nav>
 			<div class="site_logo">
@@ -82,15 +82,15 @@ $header_email = isset($header_email) ? $header_email : "biuro@adwokat-trzebnica.
 							<li><a href="index.html">Strona Główna</a></li>
 							<li><a href="o-mnie.html">O mnie</a></li>
 							<li class="dropdown">
-								<a href="oferta.html">Oferta</a>
+								<a href="oferta.php">Oferta</a>
 								<ul class="dropdown-menu">
 									<li><a href="prawo-cywilne.php">Prawo cywilne</a></li>
-									<li><a href="prawo-spadkowe.html">Prawo spadkowe</a></li>
-									<li><a href="obrona-w-sprawach-karnych.html">Obrona w sprawach karnych</a></li>
+									<li><a href="prawo-spadkowe.php">Prawo spadkowe</a></li>
+									<li><a href="obrona-w-sprawach-karnych.php">Obrona w sprawach karnych</a></li>
 								</ul>
 							</li>
-							<li><a href="faq.html">FAQ & Pytania</a></li>
-							<li><a href="kontakt.html">Kontakt</a></li>
+							<li><a href="faq-pytania.php">FAQ & Pytania</a></li>
+							<li><a href="kontakt.php">Kontakt</a></li>
 						</ul>
 					</nav>
 					<div class="free_call_nm">
