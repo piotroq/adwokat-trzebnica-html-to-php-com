@@ -21,4 +21,3 @@
 	<script src="https://w.soundcloud.com/player/api.js" type="text/javascript"></script>
 	<script src="assets/js/script.js"></script>
 	<script src="assets/js/gmap3.min.js"></script>
-	<script src='http://maps.google.com/maps/api/js?key=AIzaSyB6w8j2weabWNNnmQbh4Vsi2-sd7Sqv5zM&#038;ver=5.3.2'></script>

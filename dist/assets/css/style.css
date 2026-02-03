@@ -5528,7 +5528,7 @@ select:visited {
 }
 .contact_d_icontext .con_text span {
   font-size: 18px;
-  max-width: 205px;
+  max-width: 100%;
   margin: 0 auto;
   display: inline-block;
 }
@@ -9793,7 +9793,7 @@ select:visited {
   margin-right: -60px;
 }
 .footer_section .practice_list li {
-  width: 50%;
+  width: 100%;
   float: left;
   color: #cdcdcd;
   margin-bottom: 15px;

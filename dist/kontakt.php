@@ -55,16 +55,15 @@ include 'template-header.php';
 	============================================= -->
 	<section id="contact_page" class="contact_page_section">
 		<div id="google-map">
-			<div id="googleMaps" class="google-map-container"></div>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.4990544501993!2d17.056298976979598!3d51.30763202527698!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470ff31f825300a5%3A0x64a60e74769ce693!2sKANCELARIA%20ADWOKACKA%20ADWOKAT%20Katarzyna%20Maj%20-%20Trzebnica%20-%20Wroc%C5%82aw!5e1!3m2!1spl!2spl!4v1770046253166!5m2!1spl!2spl" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 		</div><!-- /#google-map-->
 		<div class="container">
 			<div class="contactpage_details">
 				<div class="row">
-					<div class="col-lg-4 col-md-6">
+					<div class="col-lg-4 col-md-12">
 						<div class="contact_d_icontext text-center">
 							<div class="con_icon relative-position">
 								<i class="flaticon-email"></i>
-								<span>01</span>
 							</div>
 							<div class="con_text headline">
 								<h4>Adres email</h4>
@@ -76,15 +75,14 @@ include 'template-header.php';
 							</div>
 						</div>
 					</div>
-					<div class="col-lg-4 col-md-6">
+					<div class="col-lg-4 col-md-12">
 						<div class="contact_d_icontext text-center">
 							<div class="con_icon relative-position">
 								<i class="flaticon-call"></i>
-								<span>02</span>
 							</div>
 							<div class="con_text headline">
 								<h4>Numer telefonu</h4>
-								<span>+48 502 319 645
+								<span><a href="tel:+48502319645">+48 502 319 645</a>
 								</span>
 								<div class="con_bg">
 									<i class="flaticon-call"></i>
@@ -92,15 +90,14 @@ include 'template-header.php';
 							</div>
 						</div>
 					</div>
-					<div class="col-lg-4 col-md-6">
+					<div class="col-lg-4 col-md-12">
 						<div class="contact_d_icontext text-center">
 							<div class="con_icon relative-position">
 								<i class="fas fa-map-marker-alt"></i>
-								<span>03</span>
 							</div>
 							<div class="con_text headline">
 								<h4>Adres kancelarii</h4>
-								<span>ul. Ignacego Daszyńskiego 67/4
+								<span>ul. Ignacego Daszyńskiego 67/4<br>
 								55-100 Trzebnica</span>
 								<div class="con_bg">
 									<i class="fas fa-map-marker-alt"></i>
@@ -120,7 +117,7 @@ include 'template-header.php';
 	<section id="contact_info" class="contact_info_section" style="background: #f8f9fa; padding: 80px 0;">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-10 offset-lg-1">
+				<div class="col-lg-12">
 					<div class="contact_info_content" style="background: white; padding: 50px; border-radius: 5px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
 						<div class="section_title_area text-center headline pera-content" style="margin-bottom: 40px;">
 							<p>
@@ -186,7 +183,7 @@ include 'template-header.php';
 							<div style="margin-top: 25px; padding-top: 25px; border-top: 1px solid rgba(255,255,255,0.3);">
 								<p style="margin-bottom: 0; display: flex; align-items: center;">
 									<i class="fas fa-clock fa-lg" style="margin-right: 15px;"></i>
-									<span><strong>🕒 Godziny przyjęć:</strong> Ustalane indywidualnie – prosimy o wcześniejszy kontakt telefoniczny lub mailowy w celu umówienia terminu.</span>
+									<span><strong>Godziny przyjęć:</strong> Ustalane indywidualnie – prosimy o wcześniejszy kontakt telefoniczny lub mailowy w celu umówienia terminu.</span>
 								</p>
 							</div>
 						</div>
@@ -227,7 +224,7 @@ include 'template-header.php';
 								</div>
 								<div class="col-md-6" style="margin-bottom: 25px;">
 									<div class="feature_box" style="display: flex; align-items: start;">
-										<i class="fas fa-map-marked-alt fa-2x" style="color: #b8935e; margin-right: 20px; margin-top: 5px;"></i>
+										<i class="fas fa-map-pin fa-2x" style="color: #b8935e; margin-right: 20px; margin-top: 5px;"></i>
 										<div>
 											<h4 style="margin-bottom: 10px; color: #1a1a1a;">Zasięg działania</h4>
 											<p style="font-size: 15px; line-height: 1.6;">Obsługujemy klientów z Trzebnicy, Wrocławia, całego Dolnego Śląska i Wielkopolski, w razie potrzeby na terenie całego kraju.</p>
@@ -236,7 +233,7 @@ include 'template-header.php';
 								</div>
 								<div class="col-md-6" style="margin-bottom: 25px;">
 									<div class="feature_box" style="display: flex; align-items: start;">
-										<i class="fas fa-user-shield fa-2x" style="color: #b8935e; margin-right: 20px; margin-top: 5px;"></i>
+										<i class="far fa-user fa-2x" style="color: #b8935e; margin-right: 20px; margin-top: 5px;"></i>
 										<div>
 											<h4 style="margin-bottom: 10px; color: #1a1a1a;">Dyskrecja i zaufanie</h4>
 											<p style="font-size: 15px; line-height: 1.6;">Zapewniamy pełną poufność oraz indywidualne podejście do każdej sprawy.</p>
