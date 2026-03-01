@@ -26,3 +26,13 @@ Adekwatnie do tego repozytorium, wygeneruj całe kompletne pliki do: "includes/s
 Adekwatnie do tego repozytorium, wygeneruj całe kompletne pliki do: "public/css/animations.css", "public/js/main.js", "public/js/form-validation.js" <!>
 
 Napisz prompt do Qwen Code z zadaniem do wykonania w tym repozytorium: "Adekwatnie do tego repozytorium, wygeneruj całe kompletne pliki do: "Adekwatnie do tego repozytorium, wygeneruj całe kompletne pliki do: "config/constants.php", "config/.env.example", "includes/header.php", "includes/footer.php", "includes/nav.php", "includes/breadcrumbs.php".". Pamiętaj aby była zastosowana instrukcja tego projektu jak i brand.
+
+ Następne kroki:
+    1. Zainstaluj zależności Composer:
+          composer install
+    2. Skonfiguruj środowisko:
+          cp .env.example .env && nano .env
+    3. Uruchom lokalny serwer:
+          php -S localhost:8000 -t public/
+    4. Sprawdź stronę kontaktową:
+          http://localhost:8000/kontakt

@@ -1,0 +1,145 @@
+# =============================================================================
+# public/.htaccess
+# Kancelaria Adwokacka Adwokat Katarzyna Maj — adwokat-trzebnica.com
+#
+# Apache URL Rewriting — wszystkie requesty przekierowuje do index.php
+# Wymagane: mod_rewrite, AllowOverride All w httpd.conf
+# =============================================================================
+
+Options -Indexes -MultiViews +FollowSymLinks
+
+# Włącz mod_rewrite
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /
+
+    # Nie przepisuj istniejących plików i katalogów
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+
+    # Przepisz wszystko na front controller
+    RewriteRule ^ index.php [QSA,L]
+</IfModule>
+
+# =============================================================================
+# SECURITY HEADERS
+# =============================================================================
+<IfModule mod_headers.c>
+    Header always set X-Content-Type-Options    "nosniff"
+    Header always set X-Frame-Options           "SAMEORIGIN"
+    Header always set X-XSS-Protection          "1; mode=block"
+    Header always set Referrer-Policy           "strict-origin-when-cross-origin"
+    Header always set Permissions-Policy        "geolocation=(), microphone=(), camera=()"
+
+    # HSTS (włącz tylko na HTTPS z ważnym certyfikatem!)
+    # Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
+
+    # Usuń wrażliwe nagłówki
+    Header unset X-Powered-By
+    Header always unset Server
+</IfModule>
+
+# =============================================================================
+# PERFORMANCE — GZIP / BROTLI
+# =============================================================================
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/html text/plain text/css
+    AddOutputFilterByType DEFLATE application/javascript application/json
+    AddOutputFilterByType DEFLATE application/xml text/xml image/svg+xml
+    AddOutputFilterByType DEFLATE font/woff2 font/woff font/ttf
+</IfModule>
+
+# =============================================================================
+# BROWSER CACHE — statyczne zasoby
+# =============================================================================
+<IfModule mod_expires.c>
+    ExpiresActive On
+
+    # Obrazy
+    ExpiresByType image/webp   "access plus 1 year"
+    ExpiresByType image/jpeg   "access plus 1 year"
+    ExpiresByType image/png    "access plus 1 year"
+    ExpiresByType image/gif    "access plus 1 year"
+    ExpiresByType image/svg+xml "access plus 1 year"
+    ExpiresByType image/x-icon "access plus 1 year"
+
+    # CSS / JS
+    ExpiresByType text/css            "access plus 1 month"
+    ExpiresByType application/javascript "access plus 1 month"
+
+    # Czcionki
+    ExpiresByType font/woff2  "access plus 1 year"
+    ExpiresByType font/woff   "access plus 1 year"
+    ExpiresByType font/ttf    "access plus 1 year"
+
+    # HTML — krótki cache
+    ExpiresByType text/html   "access plus 0 seconds"
+</IfModule>
+
+# =============================================================================
+# BLOKUJ DOSTĘP DO WRAŻLIWYCH PLIKÓW
+# =============================================================================
+<FilesMatch "\.(env|log|json|lock|md|sh|sql|bak|config|yaml|yml)$">
+    <IfModule mod_authz_core.c>
+        Require all denied
+    </IfModule>
+    <IfModule !mod_authz_core.c>
+        Order Allow,Deny
+        Deny from all
+    </IfModule>
+</FilesMatch>
+
+# Blokuj pliki ukryte (np. .git, .DS_Store)
+<FilesMatch "^\.">
+    <IfModule mod_authz_core.c>
+        Require all denied
+    </IfModule>
+</FilesMatch>
+
+# =============================================================================
+# MIME TYPES
+# =============================================================================
+<IfModule mod_mime.c>
+    AddType image/webp              .webp
+    AddType image/avif              .avif
+    AddType font/woff2              .woff2
+    AddType font/woff               .woff
+    AddType application/javascript  .js
+    AddType text/css                .css
+</IfModule>
+
+# =============================================================================
+# CHARSET
+# =============================================================================
+AddDefaultCharset UTF-8
+<IfModule mod_mime.c>
+    AddCharset UTF-8 .html .css .js .php .xml .json
+</IfModule>
+
+# =============================================================================
+# PRZEKIEROWANIA
+# =============================================================================
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # HTTP → HTTPS (odkomentuj na produkcji)
+    # RewriteCond %{HTTPS} off
+    # RewriteCond %{HTTP_HOST} ^(www\.)?adwokat-trzebnica\.com$
+    # RewriteRule ^ https://www.adwokat-trzebnica.com%{REQUEST_URI} [R=301,L]
+
+    # www → non-www (lub odwrotnie — dostosuj do konfiguracji serwera)
+    # RewriteCond %{HTTP_HOST} ^adwokat-trzebnica\.com$ [NC]
+    # RewriteRule ^ https://www.adwokat-trzebnica.com%{REQUEST_URI} [R=301,L]
+
+    # Trailing slash — usuń (SEO canonical)
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_URI} /(.+)/$
+    RewriteRule ^ /%1 [R=301,L]
+
+    # Nie przepisuj istniejących plików i katalogów
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+
+    # Front controller
+    RewriteRule ^ index.php [QSA,L]
+</IfModule>
