@@ -1,7 +1,7 @@
 1.Jak mam zainstalować w tym repo tree? tree -L 3 -I 'node_modules'  # Jeśli masz tree zainstalowany. Napisz kompletną szczegółową instrukcję krok po kroku jak dla amatora. <!>
 2.Jak zainstalować Composer w tym repozytorium? Napisz kompletną szczegółową instrukcję krok po kroku jak dla amatora. <!>
 3.Jak zainstalować Dockera? Docker Compose "docker-compose.yml". Napisz kompletną szczegółową instrukcję krok po kroku jak dla amatora. <!>
-4.Adekwatnie do tego repozytorium, wygeneruj całe kompletne pliki. Pamiętaj aby była zastosowana instrukcja tego projektu jak i brand.
+4.Adekwatnie do tego repozytorium, wygeneruj całe kompletne pliki. Pamiętaj aby była zastosowana instrukcja tego projektu jak i brand. <!>
 5.Za pomocą VS Code, poprawki manualne podstron i dopieszczenie na produkcję.
 6.Podmiana zdjęć z placeholderów na zdjęcia z banku zdjęć gotowe na produkcję.
 7.Ubogać wygląd obecny wizualny wszystkich podstron do wyglądu premium i dodaj od siebie na każdą podstronę z 2 nowe sekcje pasujące do podstron. Popraw wizualnie cały Header oraz Footer nadając im wygląd premium. Wszystko ma być zgodne z brandem i instrukcjami.
@@ -21,7 +21,7 @@ Adekwatnie do tego repozytorium, wygeneruj całe kompletne pliki do: "views/serv
 
 Adekwatnie do tego repozytorium, wygeneruj całe kompletne pliki do: "config/constants.php", "config/.env.example", "includes/header.php", "includes/footer.php", "includes/nav.php", "includes/breadcrumbs.php" <!>
 
-Adekwatnie do tego repozytorium, wygeneruj całe kompletne pliki do: "includes/seo-head.php", "includes/hero-section.php", "includes/contact-form.php", "includes/scripts.php", "public/index.php", "public/css/styles.css"
+Adekwatnie do tego repozytorium, wygeneruj całe kompletne pliki do: "includes/seo-head.php", "includes/hero-section.php", "includes/contact-form.php", "includes/scripts.php", "public/index.php", "public/css/styles.css" <!>
 
 Adekwatnie do tego repozytorium, wygeneruj całe kompletne pliki do: "public/css/animations.css", "public/js/main.js", "public/js/form-validation.js"
 
