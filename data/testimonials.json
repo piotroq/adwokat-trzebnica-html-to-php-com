@@ -1,0 +1,154 @@
+{
+  "testimonials": [
+    {
+      "id": 1,
+      "initials": "M.K.",
+      "quote": "Pani Adwokat Katarzyna Maj prowadziła moją sprawę rozwodową z podziałem majątku. Profesjonalizm, empatia i pełne zaangażowanie - to cechy, które najlepiej opisują współpracę. Sprawa zakończyła się korzystnym wyrokiem w ciągu 8 miesięcy. Gorąco polecam!",
+      "serviceType": "family-law",
+      "rating": 5,
+      "year": 2024,
+      "isAnonymous": true,
+      "highlight": true
+    },
+    {
+      "id": 2,
+      "initials": "A.W.",
+      "quote": "Skorzystałem z pomocy Pani Mecenas w sprawie o zachowek. Dzięki jej wiedzy i doświadczeniu udało się uzyskać pełne zadośćuczynienie. Kontakt zawsze szybki, wszystko wyjaśnione krok po kroku. Warto zaufać profesjonalistce!",
+      "serviceType": "inheritance-law",
+      "rating": 5,
+      "year": 2024,
+      "isAnonymous": true,
+      "highlight": true
+    },
+    {
+      "id": 3,
+      "initials": "P.T.",
+      "quote": "Pani Adwokat pomogła mi w trudnej sprawie karnej. Zatrzymanie, przesłuchanie, całe postępowanie - przez wszystko przeprowadziła mnie z pełnym profesjonalizmem. Sprawa zakończyła się warunkowym zawieszeniem kary. Jestem bardzo wdzięczny.",
+      "serviceType": "criminal-law",
+      "rating": 5,
+      "year": 2023,
+      "isAnonymous": true,
+      "highlight": true
+    },
+    {
+      "id": 4,
+      "initials": "K.N.",
+      "quote": "Windykacja należności z tytułu niezapłaconych faktur przebiegła sprawnie i skutecznie. Pani Mecenas odzyskała dla mnie 75 000 zł wraz z odsetkami. Pełen profesjonalizm i zaangażowanie. Polecam każdemu, kto ma problem z dłużnikami!",
+      "serviceType": "civil-law",
+      "rating": 5,
+      "year": 2024,
+      "isAnonymous": true,
+      "highlight": true
+    },
+    {
+      "id": 5,
+      "initials": "J.S.",
+      "quote": "Sprawa o alimenty na troje dzieci została przeprowadzona wzorowo. Uzyskaliśmy świadczenie w wysokości, o jakiej nawet nie marzyliśmy. Pani Adwokat jest nie tylko profesjonalistką, ale też osobą z prawdziwym powołaniem. Dziękuję!",
+      "serviceType": "family-law",
+      "rating": 5,
+      "year": 2023,
+      "isAnonymous": true,
+      "highlight": true
+    },
+    {
+      "id": 6,
+      "initials": "R.B.",
+      "quote": "Dział spadku nieruchomości po rodzicach wydawał się skomplikowany przez czworo rodzeństwa. Dzięki mediacji przeprowadzonej przez Panią Mecenas udało się dojść do polubownego porozumienia bez sprzedaży domu. Jestem pod wrażeniem!",
+      "serviceType": "inheritance-law",
+      "rating": 5,
+      "year": 2023,
+      "isAnonymous": true,
+      "highlight": false
+    },
+    {
+      "id": 7,
+      "initials": "D.G.",
+      "quote": "Zniesienie współwłasności działki rolnej przebiegło sprawnie i bez problemów. Pani Adwokat przygotowała całą dokumentację, reprezentowała mnie w sądzie. Podział fizyczny został zatwierdzony. Szybko, konkretnie, profesjonalnie!",
+      "serviceType": "civil-law",
+      "rating": 5,
+      "year": 2024,
+      "isAnonymous": true,
+      "highlight": false
+    },
+    {
+      "id": 8,
+      "initials": "T.M.",
+      "quote": "Konsultacja w sprawie karnej dotyczącej prowadzenia pojazdu w stanie nietrzeźwości. Pani Mecenas wyjaśniła wszystkie możliwe scenariusze, przygotowała strategię obrony. Sprawa zakończyła się najłagodniejszym możliwym wyrokiem. Polecam!",
+      "serviceType": "criminal-law",
+      "rating": 4,
+      "year": 2023,
+      "isAnonymous": true,
+      "highlight": false
+    },
+    {
+      "id": 9,
+      "initials": "E.L.",
+      "quote": "Sprawa o władzę rodzicielską i kontakty z dzieckiem była dla mnie niezwykle stresująca. Pani Adwokat okazała nie tylko profesjonalizm, ale też ludzkie zrozumienie. Uzyskałam satysfakcjonujące rozstrzygnięcie. Dziękuję za wsparcie!",
+      "serviceType": "family-law",
+      "rating": 5,
+      "year": 2024,
+      "isAnonymous": true,
+      "highlight": true
+    },
+    {
+      "id": 10,
+      "initials": "M.R.",
+      "quote": "Sporządzenie testamentu notarialnego i doradztwo w sprawie zabezpieczenia majątku dla dzieci. Pani Mecenas wyjaśniła wszystkie opcje, pomogła podjąć najlepszą decyzję. Teraz śpię spokojnie, wiedząc, że wszystko jest uregulowane prawnie.",
+      "serviceType": "inheritance-law",
+      "rating": 5,
+      "year": 2023,
+      "isAnonymous": true,
+      "highlight": false
+    },
+    {
+      "id": 11,
+      "initials": "K.W.",
+      "quote": "Sprawa o odszkodowanie za wadliwie wykonaną usługę remontową. Pani Adwokat skutecznie dochodziła moich praw. Uzyskaliśmy 45 000 zł odszkodowania plus zwrot kosztów sądowych. Polecam każdemu, kto szuka skutecznego prawnika!",
+      "serviceType": "civil-law",
+      "rating": 5,
+      "year": 2024,
+      "isAnonymous": true,
+      "highlight": false
+    },
+    {
+      "id": 12,
+      "initials": "A.K.",
+      "quote": "Interwencja w sprawie karnej - zatrzymanie przez policję, przesłuchanie. Pani Adwokat przyjechała natychmiast, asystowała przy czynnościach. Dzięki jej pomocy sprawa została umorzona na etapie śledztwa. Jestem niesamowicie wdzięczny!",
+      "serviceType": "criminal-law",
+      "rating": 5,
+      "year": 2023,
+      "isAnonymous": true,
+      "highlight": true
+    },
+    {
+      "id": 13,
+      "initials": "B.P.",
+      "quote": "Rozwód z orzeczeniem o winie męża. Sprawa trudna emocjonalnie, ale Pani Mecenas przeprowadziła mnie przez nią z pełnym profesjonalizmem. Uzyskałam alimenty, władzę rodzicielską i sprawiedliwy podział majątku. Polecam z całego serca!",
+      "serviceType": "family-law",
+      "rating": 5,
+      "year": 2022,
+      "isAnonymous": true,
+      "highlight": false
+    },
+    {
+      "id": 14,
+      "initials": "Z.H.",
+      "quote": "Sprawa o stwierdzenie nabycia spadku i późniejszy dział spadku. Wszystko załatwione sprawnie, bez zbędnych opóźnień. Pani Adwokat jest konkretna, rzeczowa i skuteczna. Warto skorzystać z jej usług w sprawach spadkowych.",
+      "serviceType": "inheritance-law",
+      "rating": 4,
+      "year": 2023,
+      "isAnonymous": true,
+      "highlight": false
+    },
+    {
+      "id": 15,
+      "initials": "L.J.",
+      "quote": "Pozew o zapłatę przeciwko kontrahentowi, który nie uregulował faktur. Sprawa zakończyła się nakazem zapłaty i skuteczną egzekucją. Pełna kwota odzyskana w ciągu 6 miesięcy. Profesjonalna obsługa od początku do końca!",
+      "serviceType": "civil-law",
+      "rating": 5,
+      "year": 2024,
+      "isAnonymous": true,
+      "highlight": false
+    }
+  ]
+}

@@ -1,0 +1,229 @@
+{
+  "faqItems": [
+    {
+      "id": 1,
+      "category": "general",
+      "question": "Ile kosztuje pierwsza konsultacja w Kancelarii?",
+      "answer": "Pierwsza konsultacja w naszej Kancelarii trwa około 60 minut i kosztuje 300 zł. Podczas spotkania omawiamy stan faktyczny, analizujemy dokumentację i przedstawiamy możliwe strategie działania. W przypadku podjęcia dalszej współpracy koszt konsultacji jest odliczany od wynagrodzenia za prowadzenie sprawy.",
+      "relatedServices": ["family-law", "inheritance-law", "civil-law", "criminal-law"],
+      "order": 1,
+      "helpful": true
+    },
+    {
+      "id": 2,
+      "category": "general",
+      "question": "Jakie są godziny pracy Kancelarii w Trzebnicy?",
+      "answer": "Kancelaria Adwokacka Adwokat Katarzyna Maj przyjmuje klientów od poniedziałku do piątku w godzinach 09:00-17:00. Spotkania poza godzinami pracy są możliwe po wcześniejszym uzgodnieniu telefonicznym lub mailowym. Zachęcamy do wcześniejszej rezerwacji terminu, aby uniknąć oczekiwania.",
+      "relatedServices": ["family-law", "inheritance-law", "civil-law", "criminal-law"],
+      "order": 2,
+      "helpful": true
+    },
+    {
+      "id": 3,
+      "category": "general",
+      "question": "Czy oferujecie konsultacje online lub zdalnie?",
+      "answer": "Tak, oferujemy konsultacje zdalne poprzez telefon, e-mail lub wideokonferencję (Zoom, Google Meet, Teams). Jest to wygodne rozwiązanie dla klientów, którzy nie mogą pojawić się osobiście w Kancelarii. Koszt konsultacji online jest taki sam jak stacjonarnej - 300 zł za 60 minut.",
+      "relatedServices": ["family-law", "inheritance-law", "civil-law", "criminal-law"],
+      "order": 3,
+      "helpful": true
+    },
+    {
+      "id": 4,
+      "category": "general",
+      "question": "Jak umówić się na spotkanie z adwokatem?",
+      "answer": "Spotkanie z adwokatem można umówić telefonicznie pod numerem +48 502 319 645 lub mailowo na adres biuro@adwokat-trzebnica.com. Prosimy o podanie krótkiego opisu sprawy oraz preferowanych terminów. Oddzwonimy lub odpiszemy w ciągu 24 godzin roboczych z propozycją konkretnego terminu.",
+      "relatedServices": ["family-law", "inheritance-law", "civil-law", "criminal-law"],
+      "order": 4,
+      "helpful": true
+    },
+    {
+      "id": 5,
+      "category": "general",
+      "question": "Czy prowadzicie sprawy na terenie całego Dolnego Śląska?",
+      "answer": "Tak, prowadzimy sprawy na terenie całego Dolnego Śląska, w tym w Trzebnicy, Wrocławiu, Oleśnicy, Miliczu, Twardogórze, Żmigrodzie i innych miejscowościach. W sprawach karnych reprezentujemy klientów w całym kraju. Dojazd do sądu poza Trzebnicą może wiązać się z dodatkowymi kosztami.",
+      "relatedServices": ["family-law", "inheritance-law", "civil-law", "criminal-law"],
+      "order": 5,
+      "helpful": true
+    },
+    {
+      "id": 6,
+      "category": "general",
+      "question": "Jakie dokumenty powinienem zabrać na pierwszą konsultację?",
+      "answer": "Na pierwszą konsultację warto zabrać wszystkie dokumenty związane ze sprawą: pozwów, wyroków, umów, korespondencji, notatek. W sprawach rodzinnych - akty małżeństwa, urodzenia dzieci, orzeczenia sądowe. W sprawach spadkowych - akt zgonu, testament, dokumenty majątkowe. Im więcej dokumentacji, tym dokładniejsza analiza.",
+      "relatedServices": ["family-law", "inheritance-law", "civil-law", "criminal-law"],
+      "order": 6,
+      "helpful": false
+    },
+    {
+      "id": 7,
+      "category": "general",
+      "question": "Czy udzielacie porad prawnych telefonicznie?",
+      "answer": "Tak, udzielamy porad prawnych telefonicznie. Krótka konsultacja telefoniczna (do 15 minut) jest bezpłatna dla nowych klientów. Dłuższe konsultacje telefoniczne są płatne - 150 zł za 30 minut. Pełna analiza sprawy wymaga jednak spotkania stacjonarnego lub wideokonferencji z dokumentacją.",
+      "relatedServices": ["family-law", "inheritance-law", "civil-law", "criminal-law"],
+      "order": 7,
+      "helpful": false
+    },
+    {
+      "id": 8,
+      "category": "family-law",
+      "question": "Ile trwa rozwód w Polsce?",
+      "answer": "Czas trwania rozwodu zależy od wielu czynników. Rozwód bez orzekania o winie, bez dzieci i majątku może zakończyć się w 3-4 miesiące. Rozwód z orzeczeniem o winie, z dziećmi i podziałem majątku trwa zwykle 1-2 lata. W Kancelarii dążymy do jak najszybszego zakończenia sprawy przy zachowaniu interesów klienta.",
+      "relatedServices": ["family-law"],
+      "order": 8,
+      "helpful": true
+    },
+    {
+      "id": 9,
+      "category": "family-law",
+      "question": "Jak wysokość alimentów na dziecko może być przyznana?",
+      "answer": "Wysokość alimentów zależy od usprawiedliwionych potrzeb dziecka oraz możliwości zarobkowych rodzica. Sądy w Dolnośląskim przyznają zwykle 800-1500 zł miesięcznie na jedno dziecko. Na troje dzieci może to być 2500-4000 zł. Kwota zależy od wieku dzieci, kosztów utrzymania, edukacji i dochodów rodziców.",
+      "relatedServices": ["family-law"],
+      "order": 9,
+      "helpful": true
+    },
+    {
+      "id": 10,
+      "category": "family-law",
+      "question": "Czy można zmienić wysokość alimentów po wyroku?",
+      "answer": "Tak, można wystąpić z powództwem o podwyższenie lub obniżenie alimentów w przypadku zmiany stosunków. Podwyższenie jest możliwe, gdy wzrosły potrzeby dziecka lub możliwości zarobkowe rodzica. Obniżenie - gdy pogorszyła się sytuacja materialna płatnika. Zmiana wymaga orzeczenia sądu.",
+      "relatedServices": ["family-law"],
+      "order": 10,
+      "helpful": false
+    },
+    {
+      "id": 11,
+      "category": "family-law",
+      "question": "Jak długo trwa postępowanie o władzę rodzicielską?",
+      "answer": "Postępowanie o władzę rodzicielską trwa zwykle 6-12 miesięcy. Sąd przeprowadza wywiady środowiskowe, może zlecić opinie biegłych psychologów. W pilnych sprawach można wnioskować o zabezpieczenie na czas trwania postępowania. Priorytetem sądu jest dobro małoletniego dziecka.",
+      "relatedServices": ["family-law"],
+      "order": 11,
+      "helpful": false
+    },
+    {
+      "id": 12,
+      "category": "inheritance-law",
+      "question": "Ile kosztuje stwierdzenie nabycia spadku?",
+      "answer": "Koszt wniosku o stwierdzenie nabycia spadku to 100 zł opłaty sądowej. Jeśli sprawa jest bezsporna i wszyscy spadkobiercy są zgodni, koszt może być niższy (50 zł). Do tego dochodzą koszty odpisów aktu poświadczenia dziedziczenia (50 zł za każdy odpis). Kancelaria pobiera wynagrodzenie za przygotowanie wniosku i reprezentację.",
+      "relatedServices": ["inheritance-law"],
+      "order": 12,
+      "helpful": true
+    },
+    {
+      "id": 13,
+      "category": "inheritance-law",
+      "question": "Co to jest zachowek i komu przysługuje?",
+      "answer": "Zachowek to minimalna część spadku, która należy się najbliższym członkom rodziny (małżonek, dzieci, rodzice), nawet jeśli zostali pominięci w testamencie. Wysokość zachowku to 1/2 lub 2/3 wartości udziału, który dana osoba otrzymałaby w dziedziczeniu ustawowym. Roszczenie o zachowek przedawnia się po 5 latach.",
+      "relatedServices": ["inheritance-law"],
+      "order": 13,
+      "helpful": true
+    },
+    {
+      "id": 14,
+      "category": "inheritance-law",
+      "question": "Jak długo trwa dział spadku nieruchomości?",
+      "answer": "Dział spadku nieruchomości trwa zwykle 6-18 miesięcy, w zależności od liczby spadkobierców i stopnia skomplikowania sprawy. Jeśli spadkobiercy są zgodni, można przeprowadzić dział spadku polubownie u notariusza. W przypadku sporu konieczne jest postępowanie sądowe z wyceną nieruchomości przez biegłego.",
+      "relatedServices": ["inheritance-law"],
+      "order": 14,
+      "helpful": false
+    },
+    {
+      "id": 15,
+      "category": "inheritance-law",
+      "question": "Czy można odrzucić spadek z długami?",
+      "answer": "Tak, spadek z długami można odrzucić w ciągu 6 miesięcy od dnia, w którym spadkobierca dowiedział się o powołaniu go do spadku. Odrzucenie wymaga złożenia oświadczenia przed sądem lub notariuszem. Alternatywą jest przyjęcie spadku z dobrodziejstwem inwentarza - odpowiedzialność ogranicza się do wartości masy spadkowej.",
+      "relatedServices": ["inheritance-law"],
+      "order": 15,
+      "helpful": true
+    },
+    {
+      "id": 16,
+      "category": "civil-law",
+      "question": "Ile kosztuje pozew o zapłatę?",
+      "answer": "Opłata sądowa od pozwu o zapłatę wynosi 5% wartości przedmiotu sporu (minimum 30 zł). Przy kwocie 10 000 zł opłata to 500 zł, przy 50 000 zł - 2500 zł. Do opłaty dochodzi wynagrodzenie adwokata (minimalne 1800 zł za I instancję). W przypadku wygranej koszty zwraca strona przegrywająca.",
+      "relatedServices": ["civil-law"],
+      "order": 16,
+      "helpful": true
+    },
+    {
+      "id": 17,
+      "category": "civil-law",
+      "question": "Jak długo trwa windykacja należności?",
+      "answer": "Czas windykacji zależy od sytuacji dłużnika. Postępowanie nakazowe trwa 2-4 miesiące. Jeśli dłużnik nie wniesie sprzeciwu, uzyskujemy tytuł wykonawczy. Egzekucja komornicza może trwać od kilku miesięcy do kilku lat, w zależności od majątku dłużnika. W przypadku firm często udaje się odzyskać pieniądze w 6-12 miesięcy.",
+      "relatedServices": ["civil-law"],
+      "order": 17,
+      "helpful": true
+    },
+    {
+      "id": 18,
+      "category": "civil-law",
+      "question": "Co to jest zniesienie współwłasności?",
+      "answer": "Zniesienie współwłasności to podział nieruchomości między współwłaścicieli. Może nastąpić polubownie (umowa notarialna) lub sądowo. Sąd może dokonać podziału fizycznego (wydzielenie działek), przyznać nieruchomość jednemu ze współwłaścicieli ze spłatą pozostałych lub zarządzić sprzedaż i podział pieniędzy.",
+      "relatedServices": ["civil-law"],
+      "order": 18,
+      "helpful": false
+    },
+    {
+      "id": 19,
+      "category": "civil-law",
+      "question": "Jakie są koszty postępowania egzekucyjnego?",
+      "answer": "Koszty egzekucji komorniczej obejmują: opłatę od wniosku (300 zł), wynagrodzenie komornika (8-15% od wyegzekwowanej kwoty), koszty czynności (zajęcie wynagrodzenia, nieruchomości, rachunków). Koszty egzekucyjne ponosi dłużnik, są one doliczane do egzekwowanej należności.",
+      "relatedServices": ["civil-law"],
+      "order": 19,
+      "helpful": false
+    },
+    {
+      "id": 20,
+      "category": "criminal-law",
+      "question": "Czy adwokat może być obecny przy przesłuchaniu na policji?",
+      "answer": "Tak, adwokat ma prawo być obecny przy przesłuchaniu podejrzanego na policji i w prokuraturze. Zalecamy kontakt z adwokatem przed jakimkolwiek przesłuchaniem. Adwokat pilnuje praw podejrzewanego, pomaga w składaniu wyjaśnień, reaguje na nieprawidłowości. To podstawowe prawo każdego obywatela.",
+      "relatedServices": ["criminal-law"],
+      "order": 20,
+      "helpful": true
+    },
+    {
+      "id": 21,
+      "category": "criminal-law",
+      "question": "Ile kosztuje obrona w sprawie karnej?",
+      "answer": "Koszt obrony w sprawie karnej zależy od stopnia skomplikowania sprawy. Minimalne wynagrodzenie adwokata z urzędu to 1800 zł za I instancję. W sprawach prywatnych stawki zaczynają się od 3000 zł za proste sprawy, do 10 000-30 000 zł za sprawy skomplikowane. Możliwe są płatności ratalne.",
+      "relatedServices": ["criminal-law"],
+      "order": 21,
+      "helpful": true
+    },
+    {
+      "id": 22,
+      "category": "criminal-law",
+      "question": "Czym różni się dozór elektroniczny od więzienia?",
+      "answer": "Dozór elektroniczny (SDE) pozwala odbywać karę pozbawienia wolności w domu. Skazany nosi bransoletkę elektroniczną, musi przebywać w wyznaczonym miejscu w określonych godzinach. Może pracować, załatwiać sprawy codzienne. To łagodniejsza forma odbywania kary, dostępna dla osób skazanych na kary do 2 lat.",
+      "relatedServices": ["criminal-law"],
+      "order": 22,
+      "helpful": true
+    },
+    {
+      "id": 23,
+      "category": "criminal-law",
+      "question": "Jak długo trwa postępowanie karne?",
+      "answer": "Postępowanie przygotowawcze (śledztwo) trwa zwykle 3-12 miesięcy, może być przedłużane. Postępowanie sądowe w I instancji trwa 6-18 miesięcy. Całe postępowanie z apelacją może trwać 2-4 lata. W Kancelarii dążymy do jak najszybszego zakończenia sprawy przy zachowaniu prawa do rzetelnej obrony.",
+      "relatedServices": ["criminal-law"],
+      "order": 23,
+      "helpful": false
+    },
+    {
+      "id": 24,
+      "category": "criminal-law",
+      "question": "Czy można uzyskać warunkowe zawieszenie kary?",
+      "answer": "Tak, warunkowe zawieszenie kary jest możliwe przy karze do 2 lat pozbawienia wolności. Sąd bierze pod uwagę dotychczasowy sposób życia, charakter przestępstwa, zachowanie po czynie. Okres próby wynosi 1-5 lat. Jeśli skazany nie popełni nowego przestępstwa, kara uważana jest za wykonaną.",
+      "relatedServices": ["criminal-law"],
+      "order": 24,
+      "helpful": false
+    },
+    {
+      "id": 25,
+      "category": "general",
+      "question": "Jakie formy płatności akceptuje Kancelaria?",
+      "answer": "Kancelaria akceptuje płatności gotówką w siedzibie, przelewem bankowym na konto, kartą płatniczą. Możliwe są również płatności ratalne w przypadku droższych spraw - ustalamy indywidualny harmonogram. Wystawiamy faktury VAT. Przed rozpoczęciem współpracy klient otrzymuje pisemną informację o wysokości wynagrodzenia.",
+      "relatedServices": ["family-law", "inheritance-law", "civil-law", "criminal-law"],
+      "order": 25,
+      "helpful": false
+    }
+  ]
+}

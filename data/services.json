@@ -1,0 +1,300 @@
+{
+  "services": [
+    {
+      "id": "family-law",
+      "name": "Prawo Rodzinne",
+      "shortDescription": "Kompleksowa pomoc w sprawach rodzinnych, rozwodach, alimentach i władzy rodzicielskiej.",
+      "longDescription": "Oferuję profesjonalną pomoc prawną w zakresie prawa rodzinnego. Specjalizuję się w prowadzeniu spraw rozwodowych, ustalaniu alimentów, określeniu władzy rodzicielskiej oraz kontaktów z dziećmi. Każda sprawa rodzinna wymaga indywidualnego podejścia i zrozumienia delikatnej sytuacji emocjonalnej klientów. Zapewniam dyskrecję, empatię i skuteczną reprezentację przed sądami rodzinnymi w Trzebnicy, Wrocławiu i na terenie całego Dolnego Śląska.",
+      "icon": "fas fa-users",
+      "color": "color-theme-primary",
+      "url": "/prawo-rodzinne",
+      "keywords": [
+        "adwokat rodzinny Trzebnica",
+        "rozwód Wrocław",
+        "alimenty Dolny Śląsk",
+        "władza rodzicielska",
+        "kontakty z dzieckiem",
+        "podział majątku"
+      ],
+      "areas": [
+        {
+          "name": "Rozwody i separacje",
+          "description": "Kompleksowa obsługa spraw rozwodowych, w tym rozwody z orzeczeniem o winie oraz bez orzekania o winie. Reprezentacja przed Sądem Rejonowym w Trzebnicy i Wrocławiu."
+        },
+        {
+          "name": "Alimenty",
+          "description": "Ustalanie wysokości alimentów, dochodzenie zaległych płatności, wnioski o obniżenie lub podwyższenie świadczeń alimentacyjnych."
+        },
+        {
+          "name": "Władza rodzicielska",
+          "description": "Sprawy dotyczące przyznania, zmiany, ograniczenia lub pozbawienia władzy rodzicielskiej. Reprezentacja interesów rodziców i dzieci."
+        },
+        {
+          "name": "Kontakty z dzieckiem",
+          "description": "Ustalanie zasad kontaktów z małoletnimi dziećmi, egzekucja postanowień sądowych, modyfikacja harmonogramów spotkań."
+        },
+        {
+          "name": "Podział majątku wspólnego",
+          "description": "Podział majątku dorobkowego po rozwodzie, zniesienie współwłasności nieruchomości, wycena składników majątku."
+        },
+        {
+          "name": "Rozdzielność majątkowa",
+          "description": "Przygotowanie i opiniowanie intercyz, umowy o rozdzielności majątkowej, zmiany ustroju majątkowego małżeństwa."
+        },
+        {
+          "name": "Małżeńskie umowy majątkowe",
+          "description": "Sporządzanie umów majątkowych małżeńskich przed i w trakcie trwania małżeństwa, modyfikacje istniejących umów."
+        },
+        {
+          "name": "Ustalenie i zaprzeczenie ojcostwa",
+          "description": "Postępowania w sprawach ustalenia ojcostwa, zaprzeczenia ojcostwa, badania DNA, dochodzenie roszczeń z tytułu ojcostwa."
+        },
+        {
+          "name": "Adopcje",
+          "description": "Pomoc w procedurach adopcyjnych, reprezentacja przed sądami opiekuńczymi, kompletowanie wymaganej dokumentacji."
+        },
+        {
+          "name": "Opieka nad osobami niepełnoletnimi",
+          "description": "Ustalanie opieki prawnej nad dziećmi, reprezentacja przed sądami rodzinnymi, sprawy związane z dobrem małoletniego."
+        }
+      ],
+      "examples": [
+        "Kompleksowa obsługa rozwodu z podziałem majątku o wartości 500 000 zł - sprawna finalizacja w 8 miesięcy",
+        "Dochodzenie alimentów na rzecz trojga dzieci - uzyskanie świadczenia w wysokości 4500 zł miesięcznie",
+        "Sprawa o kontakty z dzieckiem - wynegocjowanie elastycznego harmonogramu spotkań uwzględniającego dobro dziecka",
+        "Postępowanie o pozbawienie władzy rodzicielskiej - skuteczna ochrona interesu małoletniego",
+        "Intercyza przedmałżeńska - zabezpieczenie majątku osobistego przed przyszłym podziałem"
+      ],
+      "benefits": [
+        "Indywidualne podejście do każdej sprawy rodzinnej z poszanowaniem dóbr osobistych",
+        "Dyskrecja i zrozumienie dla delikatnej sytuacji emocjonalnej klientów",
+        "Skuteczna reprezentacja przed sądami rodzinnymi w Trzebnicy i Wrocławiu",
+        "Kompleksowa obsługa - od konsultacji do prawomocnego wyroku",
+        "Możliwość mediacji i polubownego zakończenia sporu"
+      ],
+      "cta": "Umów konsultację w sprawie rodzinnej"
+    },
+    {
+      "id": "inheritance-law",
+      "name": "Prawo Spadkowe",
+      "shortDescription": "Profesjonalna pomoc w sprawach spadkowych, działach spadku, testamentach i zachowkach.",
+      "longDescription": "Świadczę kompleksowe usługi prawne w zakresie prawa spadkowego. Pomagam w przeprowadzeniu całego procesu spadkowego - od stwierdzenia nabycia spadku, przez dział spadku, aż do finalnego uregulowania stanu prawnego nieruchomości. Specjalizuję się w sprawach o zachowek, wydziedziczenie oraz sporach między spadkobiercami. Oferuję pomoc w sporządzaniu testamentów oraz reprezentację przed sądami w Trzebnicy, Wrocławiu i na terenie Dolnego Śląska.",
+      "icon": "fas fa-file-signature",
+      "color": "color-theme-secondary",
+      "url": "/prawo-spadkowe",
+      "keywords": [
+        "adwokat spadkowy Trzebnica",
+        "dział spadku Wrocław",
+        "zachowek Dolny Śląsk",
+        "testament",
+        "stwierdzenie nabycia spadku",
+        "wydziedziczenie"
+      ],
+      "areas": [
+        {
+          "name": "Stwierdzenie nabycia spadku",
+          "description": "Wnioski o stwierdzenie nabycia spadku do sądu, reprezentacja w postępowaniu spadkowym, kompletowanie wymaganych dokumentów."
+        },
+        {
+          "name": "Działy spadku",
+          "description": "Sądowe i polubowne działy spadku, zniesienie współwłasności spadkowej, podział nieruchomości i ruchomości."
+        },
+        {
+          "name": "Spory spadkowe",
+          "description": "Rozwiązywanie konfliktów między spadkobiercami, mediacje, reprezentacja w sprawach o unieważnienie testamentu."
+        },
+        {
+          "name": "Zachowek",
+          "description": "Dochodzenie roszczeń o zachowek, obrona przed nieuzasadnionymi roszczeniami, wycena masy spadkowej."
+        },
+        {
+          "name": "Wydziedziczenie",
+          "description": "Porady w zakresie wydziedziczenia, analiza przesłanek wydziedziczenia, reprezentacja w sprawach o stwierdzenie wydziedziczenia."
+        },
+        {
+          "name": "Testamenty",
+          "description": "Sporządzanie testamentów notarialnych i własnoręcznych, zmiana i odwołanie testamentów, przechowywanie testamentów."
+        },
+        {
+          "name": "Przyjęcie i odrzucenie spadku",
+          "description": "Porady dotyczące przyjęcia spadku z dobrodziejstwem inwentarza lub odrzucenia spadku, terminy i procedura."
+        },
+        {
+          "name": "Inwentaryzacja mienia spadkowego",
+          "description": "Spis inwentarza spadkowego, wycena składników majątku, zabezpieczenie mienia spadkowego."
+        },
+        {
+          "name": "Roszczenia spadkowe",
+          "description": "Dochodzenie roszczeń z tytułu spadku, windykacja należności spadkowych, reprezentacja w sprawach o zwrot darowizn."
+        },
+        {
+          "name": "Stwierdzenie nieważności testamentu",
+          "description": "Powództwo o stwierdzenie nieważności testamentu z powodu błędów formalnych lub wpływu osób trzecich."
+        }
+      ],
+      "examples": [
+        "Kompleksowa obsługa sprawy spadkowej po zmarłym rodzicu - dział spadku nieruchomości o wartości 800 000 zł",
+        "Sprawa o zachowek - uzyskanie 150 000 zł dla pominiętego w testamencie spadkobiercy",
+        "Polubowny dział spadku między czworgiem rodzeństwa - ugoda sądowa bez konieczności sprzedaży nieruchomości",
+        "Stwierdzenie nieważności testamentu sporządzonego pod wpływem osoby trzeciej - przywrócenie ustawowego porządku dziedziczenia",
+        "Odrzucenie spadku z długami - ochrona majątku osobistego spadkobiercy"
+      ],
+      "benefits": [
+        "Wieloletnie doświadczenie w prowadzeniu spraw spadkowych",
+        "Możliwość polubownego rozwiązania sporów między spadkobiercami",
+        "Kompleksowa obsługa - od wniosku o stwierdzenie nabycia spadku do działu",
+        "Współpraca z rzeczoznawcami majątkowymi i notariuszami",
+        "Jasne i przejrzyste wynagrodzenie bez ukrytych kosztów"
+      ],
+      "cta": "Skonsultuj sprawę spadkową"
+    },
+    {
+      "id": "civil-law",
+      "name": "Prawo Cywilne",
+      "shortDescription": "Obsługa spraw cywilnych: umowy, odszkodowania, windykacja, zniesienie współwłasności.",
+      "longDescription": "Świadczę szeroki zakres usług z zakresu prawa cywilnego dla klientów indywidualnych i firm. Specjalizuję się w dochodzeniu roszczeń z umów, sprawach o zapłatę, zniesieniu współwłasności nieruchomości oraz windykacji należności. Reprezentuję klientów przed sądami cywilnymi wszystkich instancji, w postępowaniach egzekucyjnych oraz w sądach polubownych. Gwarantuję profesjonalne podejście, skuteczną reprezentację i dążenie do najlepszego wyniku dla klienta.",
+      "icon": "fas fa-balance-scale",
+      "color": "color-theme-primary",
+      "url": "/prawo-cywilne",
+      "keywords": [
+        "adwokat cywilny Trzebnica",
+        "odszkodowania Wrocław",
+        "windykacja Dolny Śląsk",
+        "zniesienie współwłasności",
+        "sprawy umowne",
+        "nakaz zapłaty"
+      ],
+      "areas": [
+        {
+          "name": "Roszczenia z umów",
+          "description": "Dochodzenie roszczeń z tytułu niewykonania lub nienależytego wykonania umów, odstąpienie od umowy, odszkodowania umowne."
+        },
+        {
+          "name": "Pozwy o zapłatę",
+          "description": "Składanie pozwów o zapłatę, wnioski o nakaz zapłaty, reprezentacja w postępowaniach upominawczych i nakazowych."
+        },
+        {
+          "name": "Zniesienie współwłasności",
+          "description": "Sądowe i polubowne zniesienie współwłasności nieruchomości, podział fizyczny, spłata współwłaścicieli."
+        },
+        {
+          "name": "Sprzeciw od nakazu zapłaty",
+          "description": "Obrona przed nieuzasadnionymi roszczeniami, składanie sprzeciwów od nakazów zapłaty, reprezentacja w postępowaniu odrębnym."
+        },
+        {
+          "name": "Windykacja należności",
+          "description": "Skuteczna windykacja należności cywilnych, przedwindykacja, postępowanie egzekucyjne, zajęcie wynagrodzenia i rachunków."
+        },
+        {
+          "name": "Postępowania egzekucyjne",
+          "description": "Prowadzenie postępowań egzekucyjnych, wnioski o zajęcie wynagrodzenia, nieruchomości, ruchomości i rachunków bankowych."
+        },
+        {
+          "name": "Sprawy umowne",
+          "description": "Obsługa umów sprzedaży, kupna, umów serwisowych, umów o dzieło, zlecenia i innych zobowiązań cywilnoprawnych."
+        },
+        {
+          "name": "Odszkodowania",
+          "description": "Dochodzenie odszkodowań z tytułu zniesienia współwłasności, szkód majątkowych i niemajątkowych, wypadków."
+        },
+        {
+          "name": "Sądownictwo polubowne",
+          "description": "Reprezentacja przed sądami polubownymi, mediacje, negocjacje, polubowne rozwiązywanie sporów cywilnych."
+        },
+        {
+          "name": "Zabezpieczenie roszczeń",
+          "description": "Wnioski o zabezpieczenie roszczeń, hipoteki przymusowe, zajęcia komornicze przed wyrokiem."
+        }
+      ],
+      "examples": [
+        "Windykacja należności z tytułu niezapłaconej faktury - odzyskanie 75 000 zł wraz z odsetkami",
+        "Zniesienie współwłasności nieruchomości rolnej - podział fizyczny działek między 3 właścicieli",
+        "Sprawa o odszkodowanie za wadliwie wykonaną usługę - uzyskanie 45 000 zł odszkodowania",
+        "Skuteczny sprzeciw od nakazu zapłaty - oddalenie powództwa w całości",
+        "Postępowanie egzekucyjne przeciwko dłużnikowi - pełna spłata należności w 6 miesięcy"
+      ],
+      "benefits": [
+        "Skuteczna windykacja należności z wieloletnim doświadczeniem",
+        "Kompleksowa obsługa spraw cywilnych na wszystkich etapach postępowania",
+        "Możliwość polubownego zakończenia sporu z pominięciem sądu",
+        "Stały kontakt z klientem i informowanie o postępach w sprawie",
+        "Elastyczne formy wynagrodzenia - ryczałt lub procent od odzyskanej kwoty"
+      ],
+      "cta": "Skonsultuj sprawę cywilną"
+    },
+    {
+      "id": "criminal-law",
+      "name": "Obrona w Sprawach Karnych",
+      "shortDescription": "Profesjonalna obrona w postępowaniach karnych na wszystkich etapach postępowania.",
+      "longDescription": "Świadczę usługi z zakresu prawa karnego, oferując kompleksową obronę osób podejrzanych i oskarżonych o popełnienie przestępstw i wykroczeń. Reprezentuję klientów na wszystkich etapach postępowania karnego - od przesłuchania w charakterze podejrzanego, przez postępowanie przygotowawcze, aż do rozprawy przed sądem. Specjalizuję się w sprawach o przestępstwa gospodarcze, przeciwko mieniu, życiu i zdrowiu. Zapewniam dyskrecję, profesjonalną obronę i dążenie do najlepszego wyniku dla klienta.",
+      "icon": "fas fa-gavel",
+      "color": "color-accent-burgundy",
+      "url": "/obrona-karna",
+      "keywords": [
+        "adwokat karny Trzebnica",
+        "obrona Wrocław",
+        "przestępstwa Dolny Śląsk",
+        "przesłuchanie",
+        "dozór elektroniczny",
+        "warunkowe zawieszenie kary"
+      ],
+      "areas": [
+        {
+          "name": "Obrona przed sądami",
+          "description": "Reprezentacja przed sądami rejonowymi, okręgowymi i apelacyjnymi. Obrona w pierwszej instancji, apelacje, kasacje."
+        },
+        {
+          "name": "Postępowanie przygotowawcze",
+          "description": "Asysta przy przesłuchaniach w policji i prokuraturze, składanie wyjaśnień, wniosków dowodowych, zażaleń."
+        },
+        {
+          "name": "Dozór elektroniczny",
+          "description": "Wnioski o odbycie kary w systemie dozoru elektronicznego (SDE), reprezentacja przed sądem penitencjarnym."
+        },
+        {
+          "name": "Zakazy opuszczania terenu",
+          "description": "Wnioski o uchylenie lub zmianę zakazu opuszczania kraju, tymczasowego aresztowania, środków zapobiegawczych."
+        },
+        {
+          "name": "WPZ - Wolne Pobyty Zagranicą",
+          "description": "Pomoc w uzyskaniu zgody na wyjazd za granicę w trakcie trwania postępowania karnego lub odbywania kary."
+        },
+        {
+          "name": "Odroczenie wykonania kary",
+          "description": "Wnioski o odroczenie wykonania kary pozbawienia wolności z ważnych przyczyn osobistych lub zdrowotnych."
+        },
+        {
+          "name": "Warunkowe zawieszenie kary",
+          "description": "Wnioski o warunkowe zawieszenie wykonania kary, reprezentacja w postępowaniach przed sądem."
+        },
+        {
+          "name": "Umorzenie postępowania",
+          "description": "Wnioski o umorzenie postępowania karnego z powodu braku znamion czynu zabronionego, przedawnienia."
+        },
+        {
+          "name": "Konsultacje karne",
+          "description": "Porady prawne w sprawach karnych, analiza akt sprawy, ocena dowodów, strategia obrony."
+        },
+        {
+          "name": "Karty odszkodowawcze",
+          "description": "Wnioski o zadośćuczynienie za niesłuszne skazanie, tymczasowe aresztowanie, błędy wymiaru sprawiedliwości."
+        }
+      ],
+      "examples": [
+        "Skuteczna obrona w sprawie o oszustwo gospodarcze - umorzenie postępowania na etapie śledztwa",
+        "Uzyskanie dozoru elektronicznego dla skazanego na 8 miesięcy pozbawienia wolności",
+        "Warunkowe zawieszenie kary w sprawie o prowadzenie pojazdu w stanie nietrzeźwości",
+        "Odroczenie wykonania kary ze względów zdrowotnych - czasowa przerwa w odbywaniu kary",
+        "Zmiana kwalifikacji prawnej czynu z przestępstwa na wykroczenie - obniżenie odpowiedzialności"
+      ],
+      "benefits": [
+        "Dostępność 24/7 w pilnych sprawach karnych (zatrzymanie, przesłuchanie)",
+        "Wieloletnie doświadczenie w prowadzeniu spraw karnych wszystkich typów",
+        "Dyskrecja i pełne zaangażowanie w sprawę klienta",
+        "Kompleksowa obrona na każdym etapie postępowania karnego",
+        "Możliwość reprezentacji w całym kraju"
+      ],
+      "cta": "Potrzebujesz obrony? Zadzwoń teraz!"
+    }
+  ]
+}

@@ -15,7 +15,7 @@ Setup front controller i routing?
 Komponenty: header.php, footer.php?
 Konwersja jednej strony (index → home.php)?
 
-Adekwatnie do tego repozytorium, wygeneruj całe kompletne pliki do: "data/services.json", "data/testimonials.json", "data/faq-items.json", "views/home.php", "views/about.php", "views/services.php"
+Adekwatnie do tego repozytorium, wygeneruj całe kompletne pliki do: "data/services.json", "data/testimonials.json", "data/faq-items.json", "views/home.php", "views/about.php", "views/services.php" <!>
 
 Adekwatnie do tego repozytorium, wygeneruj całe kompletne pliki do: "views/service-civil.php", "views/service-inheritance.php", "views/service-criminal.php", "views/faq.php", "views/404.php", "config/config.php"
 
