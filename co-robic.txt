@@ -19,8 +19,10 @@ Adekwatnie do tego repozytorium, wygeneruj całe kompletne pliki do: "data/servi
 
 Adekwatnie do tego repozytorium, wygeneruj całe kompletne pliki do: "views/service-civil.php", "views/service-inheritance.php", "views/service-criminal.php", "views/faq.php", "views/404.php", "config/config.php" <!>
 
-Adekwatnie do tego repozytorium, wygeneruj całe kompletne pliki do: "config/constants.php", "config/.env.example", "includes/header.php", "includes/footer.php", "includes/nav.php", "includes/breadcrumbs.php"
+Adekwatnie do tego repozytorium, wygeneruj całe kompletne pliki do: "config/constants.php", "config/.env.example", "includes/header.php", "includes/footer.php", "includes/nav.php", "includes/breadcrumbs.php" <!>
 
 Adekwatnie do tego repozytorium, wygeneruj całe kompletne pliki do: "includes/seo-head.php", "includes/hero-section.php", "includes/contact-form.php", "includes/scripts.php", "public/index.php", "public/css/styles.css"
 
 Adekwatnie do tego repozytorium, wygeneruj całe kompletne pliki do: "public/css/animations.css", "public/js/main.js", "public/js/form-validation.js"
+
+Napisz prompt do Qwen Code z zadaniem do wykonania w tym repozytorium: "Adekwatnie do tego repozytorium, wygeneruj całe kompletne pliki do: "Adekwatnie do tego repozytorium, wygeneruj całe kompletne pliki do: "config/constants.php", "config/.env.example", "includes/header.php", "includes/footer.php", "includes/nav.php", "includes/breadcrumbs.php".". Pamiętaj aby była zastosowana instrukcja tego projektu jak i brand.
