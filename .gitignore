@@ -1,2 +1,38 @@
+# Environment
+.env
+.env.local
+.env.*.local
+.env.production.local
 
-.qwen/settings.json
+# Dependencies
+vendor/
+composer.lock
+node_modules/
+package-lock.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Build
+dist/
+build/
+.vite/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# OS
+*.DS_Store
+
+# Sensitive
+config/database.php
+config/secrets.php
+.secrets.baseline

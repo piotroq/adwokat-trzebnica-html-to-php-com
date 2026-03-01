@@ -1,0 +1,12 @@
+# .htaccess - Apache URL rewriting
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  
+  # Skip rewrite for static files
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  
+  # Rewrite all to index.php
+  RewriteRule ^(.*)$ index.php?page=$1 [QSA,L]
+</IfModule>
