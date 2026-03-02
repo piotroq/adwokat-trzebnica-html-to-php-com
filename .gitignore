@@ -36,3 +36,4 @@ npm-debug.log*
 config/database.php
 config/secrets.php
 .secrets.baseline
+.qwen/settings.json
