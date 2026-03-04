@@ -16,7 +16,7 @@ $email = 'biuro@adwokat-trzebnica.com';
 $site_url = 'https://adwokat-trzebnica.com';
 $site_domain = 'www.adwokat-trzebnica.com';
 $favicon = 'assets/img/logo/ficon.png';
-$logo_main = 'assets/img/logo/logo-2.png';
+$logo_main = 'assets/img/logo/logo-2.svg';
 $logo_mobile = 'assets/img/logo/logo-1.png';
 $footer_logo = 'assets/img/logo/flogo-1.png';
 $current_year = date('Y');
@@ -31,7 +31,7 @@ $og_title = $page_title;
 $og_description = 'Profesjonalna pomoc prawna w Trzebnicy, Wrocławiu i na Dolnym Śląsku. Prawo cywilne, spadkowe oraz obrona karna. Tel: ' . $phone_display . '.';
 $og_url = $site_url;
 $og_site_name = $firm_name;
-$og_image = $site_url . '/assets/img/logo/logo-2.png';
+$og_image = $site_url . '/assets/img/logo/logo-2.svg';
 
 $twitter_title = $firm_name;
 $twitter_description = 'Adwokat Trzebnica i Wrocław. Prawo cywilne, spadkowe, obrona w sprawach karnych. Tel: ' . $phone_display . '.';
