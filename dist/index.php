@@ -718,22 +718,6 @@ $schema_data = [
 <!-- End of feature section
 	============================================= -->
 
-<!-- Start of partner section
-	============================================= -->
-	<div class="client_area">
-		<div class="client_list ul-li clearfix">
-			<ul>
-				<li><img src="assets/img/client/c1.png" alt=""></li>
-				<li><img src="assets/img/client/c2.png" alt=""></li>
-				<li><img src="assets/img/client/c3.png" alt=""></li>
-				<li><img src="assets/img/client/c4.png" alt=""></li>
-				<li><img src="assets/img/client/c5.png" alt=""></li>
-			</ul>
-		</div>
-	</div>
-<!-- End  of partner section
-	============================================= -->
-
 <!-- Start of how we work
 	============================================= -->
 	<section id="how_work" class="how_work_section">
@@ -900,20 +884,6 @@ $schema_data = [
 							</div>
 						</div>
 					</div>
-					<ol class="carousel-indicators">
-						<li data-target="#testimonial_carouselid" data-slide-to="0" class="active">
-							<img src="assets/img/testimonial/tst1.jpg" alt="">
-						</li>
-						<li data-target="#testimonial_carouselid" data-slide-to="1">
-							<img src="assets/img/testimonial/tst2.jpg" alt="">
-						</li>
-						<li data-target="#testimonial_carouselid" data-slide-to="2">
-							<img src="assets/img/testimonial/tst3.jpg" alt="">
-						</li>
-						<li data-target="#testimonial_carouselid" data-slide-to="3">
-							<img src="assets/img/testimonial/tst4.jpg" alt="">
-						</li>
-					</ol>
 				</div>
 			</div>
 		</div>
