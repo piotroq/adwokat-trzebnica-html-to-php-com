@@ -1,0 +1,22 @@
+{
+  "name": "adwokattrzebnica",
+  "version": "1.0.0",
+  "description": "> **Profesjonalna strona internetowa dla kancelarii prawnej w Trzebnicy**   > Konwersja HTML → PHP z modularną architekturą i SEO optimization",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {},
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@anthropic-ai/claude-code": "^2.1.76",
+    "@qwen-code/qwen-code": "^0.12.3",
+    "aos": "^3.0.0-beta.6",
+    "bootstrap": "^5.3.8"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "@types/node": "^25.5.0"
+  }
+}

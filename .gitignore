@@ -37,3 +37,11 @@ config/database.php
 config/secrets.php
 .secrets.baseline
 .qwen/settings.json
+
+# Playwright
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
+.qwen/settings.json.orig

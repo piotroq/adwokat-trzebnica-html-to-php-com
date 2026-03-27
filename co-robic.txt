@@ -2,9 +2,10 @@
 2.Jak zainstalować Composer w tym repozytorium? Napisz kompletną szczegółową instrukcję krok po kroku jak dla amatora. <!>
 3.Jak zainstalować Dockera? Docker Compose "docker-compose.yml". Napisz kompletną szczegółową instrukcję krok po kroku jak dla amatora. <!>
 4.Adekwatnie do tego repozytorium, wygeneruj całe kompletne pliki. Pamiętaj aby była zastosowana instrukcja tego projektu jak i brand. <!>
-5.Za pomocą VS Code, poprawki manualne podstron i dopieszczenie na produkcję.
-6.Podmiana zdjęć z placeholderów na zdjęcia z banku zdjęć gotowe na produkcję.
-7.Ubogać wygląd obecny wizualny wszystkich podstron do wyglądu premium i dodaj od siebie na każdą podstronę z 2 nowe sekcje pasujące do podstron. Popraw wizualnie cały Header oraz Footer nadając im wygląd premium. Wszystko ma być zgodne z brandem i instrukcjami.
+5. W obecnym repozytorium w lokalizacji "/dist" znajduje się gotowy projekt strony internetowej tego repozytorium: https://github.com/piotroq/adwokat-trzebnica-html-to-php-com . Podnieś w nim wersję Bootstrap z Bootstrap v4.0.0 (https://getbootstrap.com) do 5.3.8 a wersje PHP do 8.5 . Ubogać wygląd obecny wizualny wszystkich podstron nie zmieniając za bardzo struktury sekcji i kolumny do wyglądu premium i dodaj od siebie na każdą podstronę z 2 nowe sekcje pasujące do każdej z podstron. Popraw wizualnie cały Header oraz Footer nadając im wygląd premium. Stosuj przejścia, animacje, hovery, ikony, backgroundy, gradienty, parallaxy, smooth scroll. Masz zgodę na edycje plików, użycie skillsów, agentów, subagentów i wszystkich narzedzi. Strona jest w samym PHP. Na końcu zdaj raport z wykonania zadania. Wersja dev na http://localhost:8000/ .
+
+ollama launch claude --model devstral-2:123b-cloud
+ollama launch opencode --model devstral-2:123b-cloud
 
 🔥 Co Chcesz Zrobić Teraz?
 Wybierz:

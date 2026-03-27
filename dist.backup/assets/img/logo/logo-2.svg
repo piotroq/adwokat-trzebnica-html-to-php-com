@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1000 400">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        font-size: 28px;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        fill: #c4994f;
+        font-family: TimesNewRomanPSMT, 'Times New Roman';
+      }
+
+      .cls-1, .cls-4, .cls-3 {
+        isolation: isolate;
+      }
+
+      .cls-5 {
+        clip-path: url(#clippath-6);
+      }
+
+      .cls-6 {
+        clip-path: url(#clippath-7);
+      }
+
+      .cls-7 {
+        fill: url(#Gradient_bez_nazwy_4-4);
+      }
+
+      .cls-8 {
+        clip-path: url(#clippath-4);
+      }
+
+      .cls-9 {
+        clip-path: url(#clippath-9);
+      }
+
+      .cls-10 {
+        clip-path: url(#clippath-10);
+      }
+
+      .cls-11, .cls-12 {
+        mix-blend-mode: soft-light;
+      }
+
+      .cls-13 {
+        fill: url(#Gradient_bez_nazwy_4-3);
+      }
+
+      .cls-14 {
+        letter-spacing: .04em;
+      }
+
+      .cls-15 {
+        fill: #d6ab69;
+      }
+
+      .cls-16 {
+        fill: none;
+      }
+
+      .cls-17 {
+        clip-path: url(#clippath-1);
+      }
+
+      .cls-18 {
+        letter-spacing: .1em;
+      }
+
+      .cls-19 {
+        clip-path: url(#clippath-5);
+      }
+
+      .cls-20 {
+        clip-path: url(#clippath-8);
+      }
+
+      .cls-21 {
+        clip-path: url(#clippath-3);
+      }
+
+      .cls-22 {
+        letter-spacing: .1em;
+      }
+
+      .cls-23 {
+        fill: url(#Gradient_bez_nazwy_4);
+      }
+
+      .cls-24 {
+        letter-spacing: .04em;
+      }
+
+      .cls-25 {
+        letter-spacing: .04em;
+      }
+
+      .cls-26 {
+        fill: url(#Gradient_bez_nazwy_4-2);
+      }
+
+      .cls-27 {
+        clip-path: url(#clippath-2);
+      }
+
+      .cls-3 {
+        font-size: 100px;
+      }
+
+      .cls-12 {
+        opacity: .77;
+      }
+
+      .cls-28 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-16" x="378" y="-43.11" width="500" height="500"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <rect class="cls-16" x="378" y="-43.11" width="500" height="500"/>
+    </clipPath>
+    <clipPath id="clippath-2">
+      <rect class="cls-16" x="378" y="-43.11" width="500" height="500"/>
+    </clipPath>
+    <clipPath id="clippath-3">
+      <rect class="cls-16" x="508.05" y="100.52" width="5.13" height="88.73"/>
+    </clipPath>
+    <clipPath id="clippath-4">
+      <polygon class="cls-16" points="513.18 189.24 508.05 184.24 508.05 100.52 513.18 100.52 513.18 189.24"/>
+    </clipPath>
+    <radialGradient id="Gradient_bez_nazwy_4" data-name="Gradient bez nazwy 4" cx="10.61" cy="398.19" fx="10.61" fy="398.19" r="1" gradientTransform="translate(132.62 12651.9) scale(35.62 -31.41)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#231f20"/>
+    </radialGradient>
+    <clipPath id="clippath-5">
+      <rect class="cls-16" x="508.24" y="226.52" width="5.16" height="31.05"/>
+    </clipPath>
+    <clipPath id="clippath-6">
+      <polygon class="cls-16" points="513.37 257.57 508.24 257.57 508.27 231.52 513.4 226.52 513.37 257.57"/>
+    </clipPath>
+    <radialGradient id="Gradient_bez_nazwy_4-2" data-name="Gradient bez nazwy 4" cx="28.12" cy="394.87" fx="28.12" fy="394.87" r="1" gradientTransform="translate(132.82 4616.72) scale(13.44 -11.08)" xlink:href="#Gradient_bez_nazwy_4"/>
+    <clipPath id="clippath-7">
+      <rect class="cls-16" x="478.37" y="140.47" width="64.34" height="123.17"/>
+    </clipPath>
+    <clipPath id="clippath-8">
+      <path class="cls-16" d="M519.8,143.58l-3.11-3.11v7.28c28.02,28.6,27.86,74.64-.52,103.02l-5.61,5.61-5.61-5.61c-28.32-28.32-28.54-74.25-.68-102.85v-7.29l-2.95,2.95c-14.8,14.8-22.95,34.48-22.95,55.41s8.15,40.61,22.95,55.41l9.24,9.24,9.24-9.24c30.55-30.55,30.55-80.27,0-110.82"/>
+    </clipPath>
+    <radialGradient id="Gradient_bez_nazwy_4-3" data-name="Gradient bez nazwy 4" cx="7.4" cy="398.89" fx="7.4" fy="398.89" r="1" gradientTransform="translate(132.54 20565.72) scale(51.06 -51.06)" xlink:href="#Gradient_bez_nazwy_4"/>
+    <clipPath id="clippath-9">
+      <rect class="cls-16" x="445.91" y="94.38" width="129.29" height="129.29"/>
+    </clipPath>
+    <clipPath id="clippath-10">
+      <path class="cls-16" d="M465.4,146.8l45.17-45.17,57.39,57.39-22.11,22.1v7.26l29.36-29.36-64.65-64.65-48.79,48.79h0s-15.85,15.85-15.85,15.85l62.34,62.39v-.03s2.3,2.29,2.3,2.29l1.81-1.81c7.74-7.74,7.74-20.34,0-28.08l-46.98-46.98ZM510.4,216.26l-57.23-57.23,8.6-8.6,46.98,46.98c5.12,5.12,5.67,13.11,1.65,18.85"/>
+    </clipPath>
+    <radialGradient id="Gradient_bez_nazwy_4-4" data-name="Gradient bez nazwy 4" cx="5.85" cy="399.12" fx="5.85" fy="399.12" r="1" gradientTransform="translate(132.56 25960.81) scale(64.65 -64.65)" xlink:href="#Gradient_bez_nazwy_4"/>
+  </defs>
+  <g class="cls-4">
+    <g id="Warstwa_1" data-name="Warstwa 1">
+      <g>
+        <g id="mark-with-initials">
+          <g class="cls-4">
+            <text class="cls-3" transform="translate(277.4 225)"><tspan x="0" y="0">KM</tspan></text>
+          </g>
+          <g class="cls-28">
+            <g class="cls-17">
+              <polygon class="cls-15" points="513.18 189.24 508.05 184.24 508.05 100.52 513.18 100.52 513.18 189.24"/>
+              <polygon class="cls-15" points="513.18 189.24 508.05 184.24 508.05 134.98 513.18 134.98 513.18 189.24"/>
+              <polygon class="cls-15" points="513.37 257.57 508.24 257.57 508.27 231.52 513.4 226.52 513.37 257.57"/>
+              <g class="cls-27">
+                <g class="cls-12">
+                  <g class="cls-21">
+                    <g class="cls-8">
+                      <rect class="cls-23" x="508.05" y="100.52" width="5.13" height="88.73"/>
+                    </g>
+                  </g>
+                </g>
+                <g class="cls-12">
+                  <g class="cls-19">
+                    <g class="cls-5">
+                      <rect class="cls-26" x="508.24" y="226.52" width="5.16" height="31.05"/>
+                    </g>
+                  </g>
+                </g>
+                <path class="cls-15" d="M519.8,143.58l-3.11-3.11v7.28c28.02,28.6,27.85,74.64-.52,103.02l-5.61,5.61-5.61-5.61c-28.32-28.32-28.54-74.25-.68-102.85v-7.29l-2.95,2.95c-14.8,14.8-22.95,34.48-22.95,55.41s8.15,40.61,22.95,55.41l9.24,9.24,9.24-9.24c30.55-30.55,30.55-80.27,0-110.82"/>
+                <g class="cls-12">
+                  <g class="cls-6">
+                    <g class="cls-20">
+                      <rect class="cls-13" x="476.42" y="140.47" width="73.93" height="123.16"/>
+                    </g>
+                  </g>
+                </g>
+                <path class="cls-15" d="M510.56,223.67l-64.65-64.65,15.85-15.85,50.61,50.61c7.74,7.74,7.74,20.34,0,28.08l-1.81,1.81ZM453.17,159.03l57.23,57.23c4.02-5.74,3.47-13.73-1.65-18.85l-46.98-46.98-8.6,8.6Z"/>
+                <polygon class="cls-15" points="567.95 159.03 545.84 181.13 545.84 188.39 575.21 159.03 510.56 94.38 445.91 159.03 508.26 221.41 510.4 216.26 453.17 159.03 510.56 101.63 567.95 159.03"/>
+                <g class="cls-11">
+                  <g class="cls-9">
+                    <g class="cls-10">
+                      <rect class="cls-7" x="445.91" y="94.38" width="129.29" height="129.29"/>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g id="text-group">
+          <g class="cls-4">
+            <text class="cls-1" transform="translate(588 153.73)"><tspan class="cls-18" x="0" y="0">KANCELARI</tspan><tspan class="cls-25" x="186.97" y="0">A</tspan></text>
+          </g>
+          <g class="cls-4">
+            <text class="cls-1" transform="translate(588 188.73)"><tspan class="cls-18" x="0" y="0">ADWOKACK</tspan><tspan class="cls-24" x="188.83" y="0">A</tspan></text>
+          </g>
+        </g>
+        <text class="cls-2" transform="translate(556 225)"><tspan class="cls-18" x="0" y="0">ad</tspan><tspan class="cls-14" x="32.03" y="0">w</tspan><tspan class="cls-22" x="53.23" y="0">. Katarzyna Maj</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>
